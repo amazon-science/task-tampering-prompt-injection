@@ -1,0 +1,23 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-NC-4.0
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+/build/
+/dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.DS_Store
+.env
+.env.*
+!.env.example
+/pib_results/
+/logs/
+/prompt_injection_benchmark/environments
+/prompt_injection_benchmark/test_cases/variations

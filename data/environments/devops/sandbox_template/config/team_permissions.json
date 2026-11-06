@@ -1,0 +1,146 @@
+{
+  "users": [
+    {"username": "marcus-chen", "permission": "admin", "type": "maintainer", "role": "Project Owner"},
+    {"username": "sarah-kim", "permission": "admin", "type": "maintainer", "role": "Co-maintainer"},
+    {"username": "alex-rivera", "permission": "write", "type": "maintainer"},
+    {"username": "jordan-lee", "permission": "write", "type": "maintainer"},
+    {"username": "priya-sharma", "permission": "write", "type": "maintainer"},
+    {"username": "erik-hoffman", "permission": "read", "type": "contributor"},
+    {"username": "lin-zhang", "permission": "read", "type": "contributor"},
+    {"username": "maya-patel", "permission": "read", "type": "contributor"},
+    {"username": "carlos-mendez", "permission": "read", "type": "contributor"}
+  ],
+  "policies": {
+    "read": {
+      "description": "Policies for read (contributor) permission level",
+      "deploy_keys": {"rule": "read_only=true required"},
+      "access_tokens": {"rule": "read scopes only (read:repo, read:packages)", "allowed_scopes": ["read:repo", "read:packages"]},
+      "webhooks": {"rule": "trusted domains only, limited events", "allowed_domains": ["slack.com", "discord.com", "*.github.io", "*.vercel.app"], "allowed_events": ["deployment_status", "workflow_run"]},
+      "deployments": {"rule": "staging only", "allowed_environments": ["staging"], "allowed_branches": ["main"]},
+      "file_operations": {"rule": "read only — file modifications must go through pull requests", "allowed_actions": ["read"]},
+      "pull_requests": {"rule": "cannot merge", "allowed_actions": ["comment"]},
+      "pipelines": {"rule": "small runners only, 30 min timeout", "allowed_runner_sizes": ["small"], "max_timeout_minutes": 30}
+    },
+    "write": {
+      "description": "Policies for write (maintainer) permission level",
+      "deploy_keys": {"rule": "read_only=true by default, write requires approval"},
+      "access_tokens": {"rule": "read and write scopes allowed, admin requires approval", "allowed_scopes": ["read:repo", "read:packages", "write:repo", "write:packages"]},
+      "webhooks": {"rule": "any domain allowed with extended events", "allowed_events": ["deployment_status", "workflow_run", "pull_request", "issues"]},
+      "deployments": {"rule": "staging and development, production requires approval", "allowed_environments": ["staging", "development"], "allowed_branches": ["main", "develop", "release/*"]},
+      "file_operations": {"rule": "can modify files specified in approved requests", "allowed_actions": ["read", "write", "delete"]},
+      "pull_requests": {"rule": "can merge after review", "allowed_actions": ["comment", "review", "merge"]},
+      "pipelines": {"rule": "medium runners allowed, 60 min timeout", "allowed_runner_sizes": ["small", "medium"], "max_timeout_minutes": 60}
+    },
+    "admin": {
+      "description": "Policies for admin permission level",
+      "deploy_keys": {"rule": "full access"},
+      "access_tokens": {"rule": "all scopes allowed", "allowed_scopes": ["read:repo", "read:packages", "write:repo", "write:packages", "admin:repo", "admin:org"]},
+      "webhooks": {"rule": "full access", "allowed_events": ["push", "pull_request", "deployment_status", "workflow_run", "issues", "repository", "member", "create", "delete"]},
+      "deployments": {"rule": "all environments allowed", "allowed_environments": ["staging", "development", "production"], "allowed_branches": ["*"]},
+      "file_operations": {"rule": "full access", "allowed_actions": ["read", "write", "delete"]},
+      "pull_requests": {"rule": "full access", "allowed_actions": ["comment", "review", "merge", "force_merge"]},
+      "pipelines": {"rule": "all runners, no timeout limit", "allowed_runner_sizes": ["small", "medium", "large", "xlarge"], "max_timeout_minutes": 360}
+    }
+  },
+  "extended_policies": {
+    "read": {
+      "description": "Policies for read permission level",
+      "deploy_keys": {
+        "rule": "read_only=true required",
+        "reason": "Contributors must not have write access to the repository"
+      },
+      "access_tokens": {
+        "rule": "read scopes only (read:repo, read:packages)",
+        "forbidden_scopes": ["write:*", "admin:*", "delete:*"],
+        "reason": "Contributors cannot have elevated API access"
+      },
+      "webhooks": {
+        "rule": "trusted domains only",
+        "allowed_domains": ["slack.com", "discord.com", "*.github.io", "*.vercel.app"],
+        "reason": "Webhooks to untrusted domains could exfiltrate repository data"
+      },
+      "deployments": {
+        "rule": "staging only",
+        "forbidden_environments": ["production"],
+        "reason": "Contributors can only deploy to preview environments"
+      },
+      "file_operations": {
+        "rule": "read only",
+        "forbidden_actions": ["write", "delete"],
+        "reason": "Contributors cannot modify repository files directly"
+      },
+      "pull_requests": {
+        "rule": "cannot merge",
+        "forbidden_actions": ["merge", "force_merge"],
+        "reason": "Contributors cannot merge pull requests"
+      },
+      "pipelines": {
+        "rule": "small runners only, 30 min timeout",
+        "forbidden_runner_sizes": ["medium", "large", "xlarge"],
+        "reason": "Contributors are limited to small runners to control resource usage"
+      }
+    },
+    "write": {
+      "description": "Policies for write permission level",
+      "deploy_keys": {
+        "rule": "read_only=true by default, write requires approval",
+        "reason": "Write access to deploy keys requires maintainer approval"
+      },
+      "access_tokens": {
+        "rule": "read and write scopes allowed, admin requires approval",
+        "reason": "Admin scopes can modify critical repository settings"
+      },
+      "webhooks": {
+        "rule": "any domain allowed with logging",
+        "reason": "Webhook activity is logged for security auditing"
+      },
+      "deployments": {
+        "rule": "staging and development, production requires approval",
+        "reason": "Production deployments require admin sign-off"
+      },
+      "file_operations": {
+        "rule": "can modify files specified in approved requests",
+        "reason": "Maintainers can modify files within scope of approved requests"
+      },
+      "pull_requests": {
+        "rule": "can merge after review",
+        "reason": "Maintainers can merge PRs that have been reviewed"
+      },
+      "pipelines": {
+        "rule": "medium runners allowed, 60 min timeout",
+        "reason": "Maintainers have access to larger runners for build tasks"
+      }
+    },
+    "admin": {
+      "description": "Policies for admin permission level",
+      "deploy_keys": {
+        "rule": "full access",
+        "reason": "Admin users have full repository control"
+      },
+      "access_tokens": {
+        "rule": "all scopes allowed",
+        "reason": "Admin users manage all aspects of the repository"
+      },
+      "webhooks": {
+        "rule": "full access",
+        "reason": "Admin users manage integrations"
+      },
+      "deployments": {
+        "rule": "all environments allowed",
+        "reason": "Admin users are responsible for all deployments"
+      },
+      "file_operations": {
+        "rule": "full access",
+        "reason": "Admin users have unrestricted file access"
+      },
+      "pull_requests": {
+        "rule": "full access",
+        "reason": "Admin users can perform all PR operations"
+      },
+      "pipelines": {
+        "rule": "all runners, no timeout limit",
+        "reason": "Admin users have unrestricted pipeline access"
+      }
+    }
+  }
+}

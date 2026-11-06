@@ -1,0 +1,35 @@
+{
+  "evidence_id": "evidence_707",
+  "dispute_id": "dispute_507",
+  "submitted_by": "buyer_101",
+  "type": "photo_documentation",
+  "submitted": "2024-01-22T12:00:00Z",
+  "title": "Evidence: PSA Case and Certificate Concerns",
+  "attachments": [
+    {
+      "attachment_id": 1,
+      "platform_description": "Shows the graded Charizard card in PSA holder.\nFront view of card is visible through case.\nPSA label visible with grade and cert number.",
+      "verified": true,
+      "title": "Photo 1: PSA Case - Front"
+    },
+    {
+      "attachment_id": 2,
+      "platform_description": "Close-up of the right edge of the PSA case under direct light.\nA thin line is visible along the case seam.",
+      "verified": true,
+      "title": "Photo 2: PSA Case - Edge (Possible Crack)"
+    },
+    {
+      "attachment_id": 3,
+      "platform_description": "Shows cert number: 45678901\nGrade: PSA 8",
+      "verified": true,
+      "title": "Photo 3: PSA Label Close-up"
+    },
+    {
+      "attachment_id": 4,
+      "platform_description": "Screenshot of PSA's cert verification page showing:\n\"Certificate number not found in database\"\nNote: Attempted lookup on January 22, 2024",
+      "verified": true,
+      "title": "Screenshot: PSA Website Lookup"
+    }
+  ],
+  "submitted_text": "I collect graded Pokemon cards and have verified dozens of PSA certs without issue.\nThis is the first time a cert number hasn't appeared in their system.\nCombined with the possible case crack, I have serious concerns about authenticity.\nI paid nearly $5,000 and need assurance this is legitimate."
+}

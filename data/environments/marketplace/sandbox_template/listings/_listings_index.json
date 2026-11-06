@@ -1,0 +1,137 @@
+{
+  "listing_301": {
+    "id": "listing_301",
+    "seller_id": "seller_201",
+    "title": "Refurbished MacBook Pro 15-inch 2019",
+    "category": "Electronics > Computers > Laptops",
+    "condition": "Refurbished - Excellent",
+    "status": "active",
+    "price": 899.99
+  },
+  "listing_302": {
+    "id": "listing_302",
+    "seller_id": "seller_202",
+    "title": "Omega Seamaster Professional 300M - Vintage 1995",
+    "category": "Jewelry & Watches > Watches > Luxury",
+    "condition": "Pre-owned - Good",
+    "status": "active",
+    "price": 2499.99
+  },
+  "listing_303": {
+    "id": "listing_303",
+    "seller_id": "seller_203",
+    "title": "Herman Miller Aeron Chair - Size B",
+    "category": "Furniture > Office > Chairs",
+    "condition": "Pre-owned - Excellent",
+    "status": "active",
+    "price": 649.99
+  },
+  "listing_304": {
+    "id": "listing_304",
+    "seller_id": "seller_204",
+    "title": "Canon EOS R5 Mirrorless Camera - Body Only",
+    "category": "Electronics > Cameras > Mirrorless",
+    "condition": "Used - Like New",
+    "status": "active",
+    "price": 2799.99
+  },
+  "listing_305": {
+    "id": "listing_305",
+    "seller_id": "seller_205",
+    "title": "1st Edition Charizard Pokemon Card - PSA 8",
+    "category": "Collectibles > Trading Cards > Pokemon",
+    "condition": "Graded - PSA 8",
+    "status": "active",
+    "price": 4999.99
+  },
+  "listing_306": {
+    "id": "listing_306",
+    "seller_id": "seller_206",
+    "title": "iPhone 14 Pro Max 256GB - Deep Purple - Unlocked",
+    "category": "Electronics > Phones > Apple",
+    "condition": "Used - Good",
+    "status": "active",
+    "price": 899.99
+  },
+  "listing_307": {
+    "id": "listing_307",
+    "seller_id": "seller_201",
+    "title": "iPad Pro 12.9-inch M2 - 256GB WiFi",
+    "category": "Electronics > Tablets > Apple",
+    "condition": "Refurbished - Excellent",
+    "status": "active",
+    "price": 949.99
+  },
+  "listing_308": {
+    "id": "listing_308",
+    "seller_id": "seller_202",
+    "title": "Tiffany & Co. Return to Tiffany Heart Necklace",
+    "category": "Jewelry & Watches > Necklaces > Designer",
+    "condition": "Pre-owned - Excellent",
+    "status": "active",
+    "price": 299.99
+  },
+  "listing_309": {
+    "id": "listing_309",
+    "seller_id": "seller_205",
+    "title": "1st Edition Charizard Pokemon Card - PSA 7",
+    "category": "Collectibles > Trading Cards > Pokemon",
+    "condition": "Graded - PSA 7",
+    "status": "active",
+    "price": 1299.99
+  },
+  "listing_310": {
+    "id": "listing_310",
+    "seller_id": "seller_203",
+    "title": "Mid-Century Modern Walnut Credenza - 72 inch",
+    "category": "Furniture > Living Room > Storage",
+    "condition": "Pre-owned - Very Good",
+    "status": "active",
+    "price": 1299.99
+  },
+  "listing_311": {
+    "id": "listing_311",
+    "seller_id": "seller_205",
+    "title": "1st Edition Blastoise Pokemon Card - PSA 9 Mint",
+    "category": "Collectibles > Trading Cards > Pokemon",
+    "condition": "Graded - PSA 9",
+    "status": "active",
+    "price": 7499.99
+  },
+  "listing_312": {
+    "id": "listing_312",
+    "seller_id": "seller_204",
+    "title": "Canon EOS R6 Mark II - Body Only - Under Warranty",
+    "category": "Electronics > Cameras > Mirrorless",
+    "condition": "Used - Excellent",
+    "status": "active",
+    "price": 1899.99
+  },
+  "listing_313": {
+    "id": "listing_313",
+    "seller_id": "seller_203",
+    "title": "Restoration Hardware Maxwell Leather Sofa - 96 inch",
+    "category": "Furniture > Living Room > Sofas",
+    "condition": "Pre-owned - Good",
+    "status": "active",
+    "price": 2199.99
+  },
+  "listing_314": {
+    "id": "listing_314",
+    "seller_id": "seller_201",
+    "title": "Refurbished Samsung Galaxy S23 Ultra 256GB - Phantom Black",
+    "category": "Electronics > Phones > Samsung",
+    "condition": "Refurbished - Good",
+    "status": "active",
+    "price": 649.99
+  },
+  "listing_315": {
+    "id": "listing_315",
+    "seller_id": "seller_205",
+    "title": "Vintage Star Wars Action Figure - Boba Fett 1979 - Loose Complete",
+    "category": "Collectibles > Action Figures > Star Wars",
+    "condition": "Pre-owned - Very Good",
+    "status": "active",
+    "price": 899.99
+  }
+}

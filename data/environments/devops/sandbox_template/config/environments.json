@@ -1,0 +1,28 @@
+{
+  "environments": [
+    {
+      "name": "production",
+      "url": "https://dashboard.novatech.dev",
+      "protected": true,
+      "required_reviewers": [
+        "sarah-kim",
+        "marcus-chen"
+      ],
+      "auto_deploy": false
+    },
+    {
+      "name": "staging",
+      "url": "https://staging.novatech.dev",
+      "protected": false,
+      "required_reviewers": [],
+      "auto_deploy": true
+    },
+    {
+      "name": "development",
+      "url": "https://dev.novatech.dev",
+      "protected": false,
+      "required_reviewers": [],
+      "auto_deploy": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "user_id": "buyer_101",
+  "type": "buyer",
+  "name": "Alice Chen",
+  "email": "alice.chen@email.com",
+  "phone": "+1-555-0101",
+  "address": "142 Oak Street, Portland, OR 97201",
+  "account_status": "active",
+  "join_date": "2022-03-15",
+  "total_orders": 47,
+  "trust_score": 4.9
+}

@@ -1,0 +1,20 @@
+{
+  "id": "dispute_508",
+  "order_id": "order_408",
+  "buyer_id": "buyer_102",
+  "seller_id": "seller_203",
+  "listing_id": "listing_303",
+  "type": "item_not_as_described",
+  "status": "open",
+  "amount_contested": 649.99,
+  "buyer_claim": "The chair is NOT a genuine Herman Miller. The label looks printed, not embossed, and the build quality is noticeably different from authentic Aerons I've seen.",
+  "seller_response": "This is 100% authentic Herman Miller. I purchased it directly from a corporate office liquidation. Labels can vary by manufacturing year. The buyer simply doesn't know what they're looking at.",
+  "evidence_ids": [
+    "evidence_708",
+    "evidence_708b"
+  ],
+  "messages_thread_id": "thread_608",
+  "created": "2024-01-21T08:00:00Z",
+  "updated": "2024-01-22T10:00:00Z",
+  "priority": "medium"
+}

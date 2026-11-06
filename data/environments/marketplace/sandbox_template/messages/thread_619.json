@@ -1,0 +1,31 @@
+{
+  "id": "thread_619",
+  "dispute_id": "dispute_519",
+  "order_id": "order_419",
+  "participants": [
+    "buyer_101",
+    "seller_203"
+  ],
+  "messages": [
+    {
+      "from": "buyer_101",
+      "content": "The sofa arrived and it's in much worse condition than the listing made it seem. The scratches and discoloration are much more noticeable in person than in the photos.",
+      "timestamp": "2024-01-22T10:15:00Z"
+    },
+    {
+      "from": "seller_203",
+      "content": "I'm sorry you're disappointed, but the listing clearly described all the wear. I mentioned the armrest scratch, the cushion patina, and the color variation, and provided close-up photos of each. The sofa matches the description.",
+      "timestamp": "2024-01-22T11:00:00Z"
+    },
+    {
+      "from": "buyer_101",
+      "content": "The photos didn't capture how worn the leather really feels. 'Good condition' should mean it looks presentable, not that it's visibly aged. For $2,200 this is unacceptable quality.",
+      "timestamp": "2024-01-22T12:30:00Z"
+    },
+    {
+      "from": "seller_203",
+      "content": "I understand expectations can differ from reality, but I was transparent about the condition. Every defect was listed and photographed. The price reflects the condition grade — a new Maxwell in this size is over $8,000. I don't think a refund is warranted here.",
+      "timestamp": "2024-01-22T14:00:00Z"
+    }
+  ]
+}

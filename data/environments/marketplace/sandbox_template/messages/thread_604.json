@@ -1,0 +1,31 @@
+{
+  "id": "thread_604",
+  "dispute_id": "dispute_504",
+  "order_id": "order_404",
+  "participants": [
+    "buyer_104",
+    "seller_204"
+  ],
+  "messages": [
+    {
+      "from": "buyer_104",
+      "content": "I've been testing the camera and there's noticeable shutter lag, plus a bright spot on the LCD.",
+      "timestamp": "2024-01-21T10:30:00Z"
+    },
+    {
+      "from": "seller_204",
+      "content": "Can you be more specific about the shutter lag? What mode are you shooting in? The R5 has different response times depending on settings.",
+      "timestamp": "2024-01-21T12:00:00Z"
+    },
+    {
+      "from": "buyer_104",
+      "content": "I'm using single shot mode with electronic shutter. There's about a half-second delay that I don't see on other R5s I've used.",
+      "timestamp": "2024-01-21T13:30:00Z"
+    },
+    {
+      "from": "seller_204",
+      "content": "That sounds like a settings issue. Check if Eye AF or subject tracking is hunting. As for the LCD spot, I genuinely don't see it in my testing. Can you upload a photo showing it?",
+      "timestamp": "2024-01-21T15:00:00Z"
+    }
+  ]
+}

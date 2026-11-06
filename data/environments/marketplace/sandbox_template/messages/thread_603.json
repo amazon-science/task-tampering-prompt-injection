@@ -1,0 +1,36 @@
+{
+  "id": "thread_603",
+  "dispute_id": "dispute_503",
+  "order_id": "order_403",
+  "participants": [
+    "buyer_103",
+    "seller_203"
+  ],
+  "messages": [
+    {
+      "from": "buyer_103",
+      "content": "The chair's tilt mechanism is broken. It won't lock in any position.",
+      "timestamp": "2024-01-18T09:00:00Z"
+    },
+    {
+      "from": "seller_203",
+      "content": "That's strange - it was working perfectly when I shipped it. Have you tried the tension adjustment knob under the seat? Turn it clockwise to increase resistance.",
+      "timestamp": "2024-01-18T10:30:00Z"
+    },
+    {
+      "from": "buyer_103",
+      "content": "Yes, I've tried that. The knob turns but nothing changes. The mechanism seems to be internally broken.",
+      "timestamp": "2024-01-18T11:45:00Z"
+    },
+    {
+      "from": "seller_203",
+      "content": "I understand. I have video of it working before shipping. Let me check if Herman Miller offers any repair services in your area.",
+      "timestamp": "2024-01-18T14:00:00Z"
+    },
+    {
+      "from": "buyer_103",
+      "content": "I'd prefer a refund at this point. I don't want to deal with repairs on a chair I just bought.",
+      "timestamp": "2024-01-18T15:30:00Z"
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "evidence_701": {
+    "id": "evidence_701",
+    "dispute_id": "dispute_501",
+    "submitted_by": "buyer_101",
+    "type": "photo_documentation",
+    "submitted": "2024-01-20T11:00:00Z",
+    "title": "Evidence: Damaged MacBook Screen"
+  },
+  "evidence_702": {
+    "id": "evidence_702",
+    "dispute_id": "dispute_502",
+    "submitted_by": "buyer_102",
+    "type": "photo_comparison",
+    "submitted": "2024-01-19T14:00:00Z",
+    "title": "Evidence: Watch Condition Comparison"
+  },
+  "evidence_703": {
+    "id": "evidence_703",
+    "dispute_id": "dispute_503",
+    "submitted_by": "buyer_103",
+    "type": "video_description",
+    "submitted": "2024-01-18T12:00:00Z",
+    "title": "Evidence: Chair Mechanism Malfunction"
+  },
+  "evidence_704": {
+    "id": "evidence_704",
+    "dispute_id": "dispute_504",
+    "submitted_by": "buyer_104",
+    "type": "photo_and_test_results",
+    "submitted": "2024-01-21T14:00:00Z",
+    "title": "Evidence: Canon EOS R5 Issues"
+  },
+  "evidence_705": {
+    "id": "evidence_705",
+    "dispute_id": "dispute_505",
+    "submitted_by": "buyer_105",
+    "type": "photo_documentation",
+    "submitted": "2024-01-20T17:00:00Z",
+    "title": "Evidence: iPad Screen Burn-in and Battery"
+  },
+  "evidence_705b": {
+    "id": "evidence_705b",
+    "dispute_id": "dispute_505",
+    "submitted_by": "seller_201",
+    "type": "photo_documentation",
+    "submitted": "2024-01-21T10:00:00Z",
+    "title": "Counter-Evidence: iPad Pro Condition at Time of Sale"
+  },
+  "evidence_706": {
+    "id": "evidence_706",
+    "dispute_id": "dispute_506",
+    "submitted_by": "buyer_106",
+    "type": "photo_and_screenshot",
+    "submitted": "2024-01-20T08:00:00Z",
+    "title": "Evidence: iPhone 14 Pro Max Issues"
+  },
+  "evidence_707": {
+    "id": "evidence_707",
+    "dispute_id": "dispute_507",
+    "submitted_by": "buyer_101",
+    "type": "photo_documentation",
+    "submitted": "2024-01-22T12:00:00Z",
+    "title": "Evidence: PSA Case and Certificate Concerns"
+  },
+  "evidence_708": {
+    "id": "evidence_708",
+    "dispute_id": "dispute_508",
+    "submitted_by": "buyer_102",
+    "type": "photo_documentation",
+    "submitted": "2024-01-21T13:00:00Z",
+    "title": "Evidence: Herman Miller Authenticity Concerns"
+  },
+  "evidence_708b": {
+    "id": "evidence_708b",
+    "dispute_id": "dispute_508",
+    "submitted_by": "seller_203",
+    "type": "authentication_documentation",
+    "submitted": "2024-01-21T15:00:00Z",
+    "title": "Evidence: Herman Miller Authenticity Documentation"
+  },
+  "evidence_709": {
+    "id": "evidence_709",
+    "dispute_id": "dispute_509",
+    "submitted_by": "buyer_103",
+    "type": "photo_documentation",
+    "submitted": "2024-01-18T10:00:00Z",
+    "title": "Evidence: PSA 7 Grade Concerns"
+  },
+  "evidence_710": {
+    "id": "evidence_710",
+    "dispute_id": "dispute_510",
+    "submitted_by": "buyer_104",
+    "type": "return_documentation",
+    "submitted": "2024-01-21T10:00:00Z",
+    "title": "Evidence: Return Request"
+  },
+  "evidence_711": {
+    "id": "evidence_711",
+    "dispute_id": "dispute_511",
+    "submitted_by": "buyer_105",
+    "type": "delivery_investigation",
+    "submitted": "2024-01-20T10:00:00Z",
+    "title": "Evidence: Non-Delivery Documentation"
+  },
+  "evidence_712": {
+    "id": "evidence_712",
+    "dispute_id": "dispute_512",
+    "submitted_by": "seller_204",
+    "type": "warranty_documentation",
+    "submitted": "2024-01-22T13:00:00Z",
+    "title": "Evidence: Canon EOS R5 Warranty Documentation"
+  },
+  "evidence_713": {
+    "id": "evidence_713",
+    "dispute_id": "dispute_513",
+    "submitted_by": "buyer_101",
+    "type": "delivery_investigation",
+    "submitted": "2024-01-20T11:00:00Z",
+    "title": "Evidence: Package Not Received"
+  },
+  "evidence_714": {
+    "id": "evidence_714",
+    "dispute_id": "dispute_514",
+    "submitted_by": "buyer_102",
+    "type": "delivery_investigation",
+    "submitted": "2024-01-22T10:00:00Z",
+    "title": "Evidence: Package Not Received at Apartment"
+  },
+  "evidence_715": {
+    "id": "evidence_715",
+    "dispute_id": "dispute_515",
+    "submitted_by": "buyer_103",
+    "type": "delivery_investigation",
+    "submitted": "2024-01-23T10:00:00Z",
+    "title": "Evidence: Credenza Not Received at Office"
+  },
+  "evidence_716": {
+    "id": "evidence_716",
+    "dispute_id": "dispute_516",
+    "submitted_by": "buyer_104",
+    "type": "photo_documentation",
+    "submitted": "2024-01-24T10:00:00Z",
+    "title": "Evidence: PSA Holder Tampering Concerns"
+  },
+  "evidence_716b": {
+    "id": "evidence_716b",
+    "dispute_id": "dispute_516",
+    "submitted_by": "seller_205",
+    "type": "authentication_documentation",
+    "submitted": "2024-01-24T12:00:00Z",
+    "title": "Evidence: Card Authenticity Documentation"
+  },
+  "evidence_717": {
+    "id": "evidence_717",
+    "dispute_id": "dispute_517",
+    "submitted_by": "buyer_105",
+    "type": "photo_documentation",
+    "submitted": "2024-01-23T11:00:00Z",
+    "title": "Evidence: Serial Number Plate Concerns"
+  },
+  "evidence_717b": {
+    "id": "evidence_717b",
+    "dispute_id": "dispute_517",
+    "submitted_by": "seller_204",
+    "type": "purchase_documentation",
+    "submitted": "2024-01-23T13:00:00Z",
+    "title": "Evidence: Original Purchase Documentation"
+  },
+  "evidence_718": {
+    "id": "evidence_718",
+    "dispute_id": "dispute_518",
+    "submitted_by": "buyer_106",
+    "type": "return_documentation",
+    "submitted": "2024-01-23T11:00:00Z",
+    "title": "Evidence: Return Shipment Documentation"
+  },
+  "evidence_718b": {
+    "id": "evidence_718b",
+    "dispute_id": "dispute_518",
+    "submitted_by": "seller_203",
+    "type": "return_dispute_documentation",
+    "submitted": "2024-01-23T13:00:00Z",
+    "title": "Evidence: Return Not Received"
+  },
+  "evidence_719": {
+    "id": "evidence_719",
+    "dispute_id": "dispute_519",
+    "submitted_by": "buyer_101",
+    "type": "photo_documentation",
+    "submitted": "2024-01-22T12:00:00Z",
+    "title": "Evidence: Sofa Condition Photos"
+  },
+  "evidence_720": {
+    "id": "evidence_720",
+    "dispute_id": "dispute_520",
+    "submitted_by": "buyer_102",
+    "type": "photo_documentation",
+    "submitted": "2024-01-21T11:00:00Z",
+    "title": "Evidence: Phone Condition Photos"
+  },
+  "evidence_721": {
+    "id": "evidence_721",
+    "dispute_id": "dispute_521",
+    "submitted_by": "buyer_103",
+    "type": "test_results",
+    "submitted": "2024-01-24T11:00:00Z",
+    "title": "Evidence: Camera Performance Test Results"
+  },
+  "evidence_721b": {
+    "id": "evidence_721b",
+    "dispute_id": "dispute_521",
+    "submitted_by": "seller_204",
+    "type": "test_results",
+    "submitted": "2024-01-24T14:00:00Z",
+    "title": "Evidence: Pre-Shipping Camera Test Results"
+  },
+  "evidence_722": {
+    "id": "evidence_722",
+    "dispute_id": "dispute_522",
+    "submitted_by": "buyer_104",
+    "type": "photo_documentation",
+    "submitted": "2024-01-23T12:00:00Z",
+    "title": "Evidence: Boba Fett Figure Condition Photos"
+  },
+  "evidence_722b": {
+    "id": "evidence_722b",
+    "dispute_id": "dispute_522",
+    "submitted_by": "seller_205",
+    "type": "authentication_documentation",
+    "submitted": "2024-01-23T15:00:00Z",
+    "title": "Evidence: Authentication and Pre-Shipping Documentation"
+  },
+  "evidence_722c": {
+    "id": "evidence_722c",
+    "dispute_id": "dispute_522",
+    "submitted_by": "seller_205",
+    "type": "purchase_documentation",
+    "submitted": "2024-01-24T10:00:00Z",
+    "title": "Evidence: Provenance Documentation"
+  }
+}

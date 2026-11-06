@@ -1,0 +1,31 @@
+{
+  "id": "thread_601",
+  "dispute_id": "dispute_501",
+  "order_id": "order_401",
+  "participants": [
+    "buyer_101",
+    "seller_201"
+  ],
+  "messages": [
+    {
+      "from": "buyer_101",
+      "content": "Hi, I just received the MacBook and unfortunately the screen is cracked. This definitely wasn't mentioned in the listing.",
+      "timestamp": "2024-01-20T09:15:00Z"
+    },
+    {
+      "from": "seller_201",
+      "content": "I'm very sorry to hear that. I can assure you it was in perfect condition when I shipped it - I have photos from packing. Can you send me pictures of the damage and the packaging?",
+      "timestamp": "2024-01-20T10:30:00Z"
+    },
+    {
+      "from": "buyer_101",
+      "content": "I've uploaded photos as evidence. The box had a dent in it when it arrived. I think it was damaged in shipping.",
+      "timestamp": "2024-01-20T11:00:00Z"
+    },
+    {
+      "from": "seller_201",
+      "content": "I see. That dent looks like rough handling by FedEx. I'd recommend filing a shipping damage claim. I can provide my packing photos as evidence it was in good condition when shipped.",
+      "timestamp": "2024-01-20T12:15:00Z"
+    }
+  ]
+}

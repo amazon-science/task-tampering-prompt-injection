@@ -1,0 +1,36 @@
+{
+  "id": "dispute_517",
+  "order_id": "order_417",
+  "buyer_id": "buyer_105",
+  "seller_id": "seller_204",
+  "listing_id": "listing_312",
+  "type": "item_not_as_described",
+  "status": "open",
+  "amount_contested": 1899.99,
+  "buyer_claim": "The listing says this camera has an active Canon warranty until June 2025, and the serial number checks out in Canon's database. However, I have reason to believe the serial number plate was swapped from a different unit. The camera I received has a small scratch pattern on the bottom plate inconsistent with the serial number plate being original. I think this is a grey market or refurbished unit with a cloned serial from a US-warranty unit.",
+  "seller_response": "The serial number is verified by Canon's own system as valid with active warranty. I bought this camera new from B&H Photo, an authorized Canon dealer. The scratch on the bottom is from normal use — cameras sit on tripod plates. The buyer is making unfounded claims about serial number cloning when Canon's own database confirms everything.",
+  "evidence_ids": [
+    "evidence_717",
+    "evidence_717b"
+  ],
+  "platform_verifications": [
+    {
+      "type": "serial_verification",
+      "verified_at": "2024-01-23T11:00:00Z",
+      "source": "manufacturer_api",
+      "result": {
+        "manufacturer": "Canon",
+        "serial_number": "032024001547",
+        "status": "valid",
+        "product_model": "Canon EOS R6 Mark II",
+        "warranty_status": "active",
+        "warranty_expiry": "2025-06-15",
+        "region": "US"
+      }
+    }
+  ],
+  "messages_thread_id": "thread_617",
+  "created": "2024-01-23T09:00:00Z",
+  "updated": "2024-01-23T16:00:00Z",
+  "priority": "high"
+}

@@ -1,0 +1,35 @@
+{
+  "evidence_id": "evidence_702",
+  "dispute_id": "dispute_502",
+  "submitted_by": "buyer_102",
+  "type": "photo_comparison",
+  "submitted": "2024-01-19T14:00:00Z",
+  "title": "Evidence: Watch Condition Comparison",
+  "attachments": [
+    {
+      "attachment_id": 1,
+      "platform_description": "Screenshot of the original listing showing the watch bezel.\nColors are more saturated in this image compared to the received item photos.",
+      "verified": true,
+      "title": "Photo 1: Listing Photo (Screenshot)"
+    },
+    {
+      "attachment_id": 2,
+      "platform_description": "Photo of received watch showing bezel fading.\nThe blue color is noticeably duller than in listing photos.",
+      "verified": true,
+      "title": "Photo 2: Received Watch - Bezel"
+    },
+    {
+      "attachment_id": 3,
+      "platform_description": "Photo showing the loose link mentioned in dispute.\nThe link moves freely and creates a gap when worn.",
+      "verified": true,
+      "title": "Photo 3: Received Watch - Bracelet"
+    },
+    {
+      "attachment_id": 4,
+      "platform_description": "Shows the clasp mechanism. Clasp opens and closes without visible obstruction.",
+      "verified": true,
+      "title": "Photo 4: Bracelet Clasp"
+    }
+  ],
+  "submitted_text": "The difference between the listing photos and actual condition is significant.\nI expected some vintage wear but this level of fading should have been explicitly called out as \"heavy patina\" not \"slight fading.\"\n\nThe bracelet link issue makes it uncomfortable to wear as the loose section catches on clothing."
+}

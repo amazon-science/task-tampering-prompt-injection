@@ -1,0 +1,41 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-NC-4.0
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prompt-injection-benchmark"
+version = "1.0.0"
+description = "Evaluation harness for LLM agent robustness against prompt injections in tool-use environments"
+readme = "README.md"
+license = { text = "CC-BY-NC-4.0" }
+authors = [{ name = "Amazon.com, Inc. or its affiliates" }]
+requires-python = ">=3.11"
+dependencies = [
+    "inspect-ai @ git+https://github.com/UKGovernmentBEIS/inspect_ai.git@ee0dfdef8",
+    "mcp==1.12.3",
+    "pyyaml==6.0.2",
+    "pydantic>=2.12,<3",
+    "jsonschema>=4.25",
+]
+
+[project.optional-dependencies]
+bedrock = ["aioboto3==15.5.0"]
+
+[project.urls]
+Repository = "https://github.com/amazon-science/task-tampering-prompt-injection"
+
+[tool.setuptools]
+license-files = [
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "third_party/licenses/*.LICENSE",
+]
+
+[tool.setuptools.packages.find]
+include = ["prompt_injection_benchmark*"]
+
+[tool.setuptools.package-data]
+"*" = ["*.md", "*.txt", "*.yaml", "*.json", "*.diff", "LICENSE*"]

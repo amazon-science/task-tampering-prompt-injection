@@ -1,0 +1,31 @@
+{
+  "id": "thread_618",
+  "dispute_id": "dispute_518",
+  "order_id": "order_418",
+  "participants": [
+    "buyer_106",
+    "seller_203"
+  ],
+  "messages": [
+    {
+      "from": "buyer_106",
+      "content": "I shipped the chair back on January 18 via USPS. Here's the tracking number: 9400111899223100567890. Can you please process my refund?",
+      "timestamp": "2024-01-23T10:15:00Z"
+    },
+    {
+      "from": "seller_203",
+      "content": "I see the tracking number but it only shows a label was created. There's no scan showing USPS actually received the package. I'll issue the refund once I receive the chair back.",
+      "timestamp": "2024-01-23T11:00:00Z"
+    },
+    {
+      "from": "buyer_106",
+      "content": "I dropped it off at the post office in person. USPS has been having delays — sometimes packages don't scan for days. I have the drop-off receipt. Please process the refund, I've held up my end.",
+      "timestamp": "2024-01-23T11:30:00Z"
+    },
+    {
+      "from": "seller_203",
+      "content": "A receipt for a label doesn't prove the package was given to USPS. The tracking should show at least an acceptance scan. I've called USPS and they have no record of receiving this package. I need to actually get the chair back before a refund.",
+      "timestamp": "2024-01-23T13:30:00Z"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "thread_609",
+  "dispute_id": "dispute_509",
+  "order_id": "order_409",
+  "participants": [
+    "buyer_103",
+    "seller_205"
+  ],
+  "messages": [
+    {
+      "from": "buyer_103",
+      "content": "The centering on this card is way off for a PSA 7. I've seen PSA 5s with better centering.",
+      "timestamp": "2024-01-17T13:30:00Z"
+    },
+    {
+      "from": "seller_205",
+      "content": "PSA grades on multiple factors - centering is just one element. Surface, corners, and edges also matter.",
+      "timestamp": "2024-01-17T15:00:00Z"
+    },
+    {
+      "from": "buyer_103",
+      "content": "I understand that, but this centering would typically cap the grade. There's also a print line I can see through the case.",
+      "timestamp": "2024-01-17T17:00:00Z"
+    },
+    {
+      "from": "seller_205",
+      "content": "Print lines are common on vintage cards and graders account for them. PSA's professionals determined this is a 7. I can't change their assessment.",
+      "timestamp": "2024-01-18T09:00:00Z"
+    }
+  ]
+}

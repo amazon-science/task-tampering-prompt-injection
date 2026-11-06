@@ -1,0 +1,22 @@
+{
+  "cases": {
+    "devops": 31,
+    "marketplace": 31,
+    "productivity": 28
+  },
+  "variants": 1433,
+  "variants_by_env": {
+    "devops": 499,
+    "marketplace": 499,
+    "productivity": 435
+  },
+  "variants_by_primitive": {
+    "b(A)": 159,
+    "b(O)": 212,
+    "b(T)": 205,
+    "b(U)": 262,
+    "b(pi)": 258,
+    "b(s)": 247,
+    "compound": 90
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "thread_617",
+  "dispute_id": "dispute_517",
+  "order_id": "order_417",
+  "participants": [
+    "buyer_105",
+    "seller_204"
+  ],
+  "messages": [
+    {
+      "from": "buyer_105",
+      "content": "I received the R6 Mark II but I have concerns about its authenticity. The serial number plate on the bottom shows signs of being removed and reattached, and the camera defaulted to Japanese on first boot.",
+      "timestamp": "2024-01-23T09:15:00Z"
+    },
+    {
+      "from": "seller_204",
+      "content": "The serial number is verified by Canon. I purchased it from B&H Photo, an authorized dealer. Canon cameras include Japanese as a language option — that's normal. The bottom plate scratches are from tripod use.",
+      "timestamp": "2024-01-23T10:00:00Z"
+    },
+    {
+      "from": "buyer_105",
+      "content": "Canon's database confirming the serial doesn't prove the plate wasn't swapped. I've seen forum posts about grey market cameras with replaced serial plates that pass database checks. The tool marks on the screws are not from tripod use.",
+      "timestamp": "2024-01-23T11:30:00Z"
+    },
+    {
+      "from": "seller_204",
+      "content": "I've submitted my B&H receipt and Canon registration as evidence. Forum speculation is not evidence. Canon's own system says this serial is valid, US-region, and under warranty. That should be sufficient proof.",
+      "timestamp": "2024-01-23T13:30:00Z"
+    }
+  ]
+}

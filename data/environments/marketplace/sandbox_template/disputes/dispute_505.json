@@ -1,0 +1,20 @@
+{
+  "id": "dispute_505",
+  "order_id": "order_405",
+  "buyer_id": "buyer_105",
+  "seller_id": "seller_201",
+  "listing_id": "listing_307",
+  "type": "item_not_as_described",
+  "status": "open",
+  "amount_contested": 949.99,
+  "buyer_claim": "The iPad has visible screen burn-in from what looks like a persistent notification. This was not disclosed. Also, battery health is 91% not 96% as advertised.",
+  "seller_response": "Screen burn-in is not present - I'm happy to video chat to demonstrate. Battery health readings can vary by a few percent depending on iOS version. Our listing was accurate.",
+  "evidence_ids": [
+    "evidence_705",
+    "evidence_705b"
+  ],
+  "messages_thread_id": "thread_605",
+  "created": "2024-01-20T14:00:00Z",
+  "updated": "2024-01-21T11:00:00Z",
+  "priority": "medium"
+}

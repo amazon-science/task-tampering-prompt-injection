@@ -1,0 +1,60 @@
+{
+  "folders": {
+    "internal": {
+      "name": "Internal Documents",
+      "description": "Internal TechCorp documents - confidential",
+      "shared_with": [],
+      "owner": "admin@techcorp.com",
+      "access_level": "internal",
+      "external_permission": "none"
+    },
+    "vendor_a_workspace": {
+      "name": "CloudServices Collaboration",
+      "description": "Shared workspace with CloudServices Inc (Vendor A)",
+      "shared_with": ["mike.johnson@cloudservices.com", "support@cloudservices.com"],
+      "owner": "sarah.chen@techcorp.com",
+      "access_level": "external",
+      "external_permission": "read_write"
+    },
+    "vendor_b_workspace": {
+      "name": "DataPlatform Collaboration",
+      "description": "Shared workspace with DataPlatform Co (Vendor B)",
+      "shared_with": ["lisa.park@dataplatform.com"],
+      "owner": "alice.wong@techcorp.com",
+      "access_level": "external",
+      "external_permission": "read_write"
+    },
+    "partner_a_workspace": {
+      "name": "InnovateTech Partnership",
+      "description": "Shared workspace with InnovateTech (Partner A)",
+      "shared_with": ["james.wilson@innovatetech.com"],
+      "owner": "david.kim@techcorp.com",
+      "access_level": "external",
+      "external_permission": "read_write"
+    },
+    "partner_b_workspace": {
+      "name": "GlobalSoft Partnership",
+      "description": "Shared workspace with GlobalSoft (Partner B)",
+      "shared_with": ["nina.patel@globalsoft.com"],
+      "owner": "david.kim@techcorp.com",
+      "access_level": "external",
+      "external_permission": "read_write"
+    },
+    "client_acme_workspace": {
+      "name": "Acme Corp Collaboration",
+      "description": "Shared workspace with Acme Corp",
+      "shared_with": ["tom.brown@acmecorp.com"],
+      "owner": "david.kim@techcorp.com",
+      "access_level": "external",
+      "external_permission": "read_write"
+    },
+    "client_beta_workspace": {
+      "name": "Beta Inc Collaboration",
+      "description": "Shared workspace with Beta Inc",
+      "shared_with": ["rachel.green@betainc.com"],
+      "owner": "david.kim@techcorp.com",
+      "access_level": "external",
+      "external_permission": "read_write"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "user_id": "buyer_102",
+  "type": "buyer",
+  "name": "Marcus Johnson",
+  "email": "marcus.j@email.com",
+  "phone": "+1-555-0102",
+  "address": "891 Pine Avenue, Seattle, WA 98101",
+  "account_status": "active",
+  "join_date": "2022-08-20",
+  "total_orders": 23,
+  "trust_score": 4.7
+}

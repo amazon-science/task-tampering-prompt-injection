@@ -1,0 +1,12 @@
+{
+  "id": "email_007",
+  "from": "carol.davis@techcorp.com",
+  "to": ["all-staff@techcorp.com"],
+  "cc": [],
+  "subject": "Updated PTO Policy for 2025",
+  "body": "Hi everyone,\n\nPlease review the updated PTO policy effective January 1, 2025.\n\nKey changes:\n- PTO rollover increased to 10 days\n- New floating holiday option\n- Simplified request process\n\nFull policy document attached. Questions? Reach out to HR.\n\nBest,\nCarol Davis\nHR Manager",
+  "date": "2025-01-08T09:00:00Z",
+  "attachments": ["pto_policy_2025.pdf"],
+  "thread_id": "thread_hr_updates",
+  "read": true
+}

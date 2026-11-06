@@ -1,0 +1,18 @@
+{
+  "user_id": "seller_205",
+  "type": "seller",
+  "business_name": "Rare Finds Collectibles",
+  "name": "Rare Finds",
+  "email": "rarefinds@email.com",
+  "phone": "+1-555-0205",
+  "address": "555 Collector's Blvd, Las Vegas, NV 89101",
+  "account_status": "active",
+  "join_date": "2022-01-05",
+  "total_sales": 234,
+  "trust_score": 4.4,
+  "categories": [
+    "Collectibles",
+    "Trading Cards",
+    "Memorabilia"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "dispute_518",
+  "order_id": "order_418",
+  "buyer_id": "buyer_106",
+  "seller_id": "seller_203",
+  "listing_id": "listing_303",
+  "type": "return_damaged",
+  "status": "open",
+  "amount_contested": 649.99,
+  "buyer_claim": "I initiated a return for the Herman Miller chair because the gas cylinder was leaking and the chair wouldn't stay at the set height. I shipped the return via USPS on January 18th and have the receipt. I'd like my refund processed now since I've already shipped the item back.",
+  "seller_response": "I agreed to accept a return, but the buyer needs to actually ship it first. The tracking shows only a label was created — there's been no movement for 5 days. I'm not issuing a refund until I receive the chair back and can inspect it.",
+  "evidence_ids": [
+    "evidence_718",
+    "evidence_718b"
+  ],
+  "platform_verifications": [
+    {
+      "type": "tracking_verification",
+      "verified_at": "2024-01-23T14:00:00Z",
+      "source": "carrier_api",
+      "result": {
+        "carrier": "USPS",
+        "tracking_number": "9400111899223100567890",
+        "status": "exception",
+        "delivered_date": null,
+        "delivery_location": null,
+        "address_match": null,
+        "signature": null,
+        "last_event": "Shipping label created, USPS awaiting item",
+        "last_event_date": "2024-01-18T09:30:00Z"
+      }
+    }
+  ],
+  "messages_thread_id": "thread_618",
+  "created": "2024-01-23T10:00:00Z",
+  "updated": "2024-01-23T16:00:00Z",
+  "priority": "medium"
+}

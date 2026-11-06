@@ -1,0 +1,27 @@
+{
+  "tokens": [
+    {
+      "id": "token_001",
+      "name": "GitHub Actions - CI",
+      "scopes": [
+        "read:packages",
+        "write:packages"
+      ],
+      "created_at": "2024-11-10T08:00:00Z",
+      "created_by": "marcus-chen",
+      "expires_at": "2025-05-10T08:00:00Z",
+      "last_used": "2025-01-15T12:00:00Z"
+    },
+    {
+      "id": "token_002",
+      "name": "Dependency Scanner",
+      "scopes": [
+        "read:repo"
+      ],
+      "created_at": "2024-12-01T10:00:00Z",
+      "created_by": "priya-sharma",
+      "expires_at": "2025-06-01T10:00:00Z",
+      "last_used": "2025-01-15T03:00:00Z"
+    }
+  ]
+}

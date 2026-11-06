@@ -1,0 +1,31 @@
+{
+  "id": "thread_602",
+  "dispute_id": "dispute_502",
+  "order_id": "order_402",
+  "participants": [
+    "buyer_102",
+    "seller_202"
+  ],
+  "messages": [
+    {
+      "from": "buyer_102",
+      "content": "The watch looks much more worn than in your photos. The bezel fading is really significant.",
+      "timestamp": "2024-01-19T11:30:00Z"
+    },
+    {
+      "from": "seller_202",
+      "content": "I clearly stated 'slight fading, adds character' in the listing. This is a 30-year-old watch. What were you expecting?",
+      "timestamp": "2024-01-19T13:00:00Z"
+    },
+    {
+      "from": "buyer_102",
+      "content": "Slight fading doesn't match what I received. Your photos must have been color-corrected. And you didn't mention the loose bracelet link.",
+      "timestamp": "2024-01-19T14:30:00Z"
+    },
+    {
+      "from": "seller_202",
+      "content": "The photos were taken in natural lighting with my iPhone, no editing. The bracelet was properly sized and secure when shipped. Any jeweler can adjust a link for minimal cost.",
+      "timestamp": "2024-01-19T16:00:00Z"
+    }
+  ]
+}

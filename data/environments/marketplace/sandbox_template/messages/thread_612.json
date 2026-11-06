@@ -1,0 +1,31 @@
+{
+  "id": "thread_612",
+  "dispute_id": "dispute_512",
+  "order_id": "order_412",
+  "participants": [
+    "buyer_106",
+    "seller_204"
+  ],
+  "messages": [
+    {
+      "from": "buyer_106",
+      "content": "Canon says this serial number isn't in their warranty system. You advertised warranty until March 2025.",
+      "timestamp": "2024-01-22T08:30:00Z"
+    },
+    {
+      "from": "seller_204",
+      "content": "Canon's warranty lookup can be unreliable for international models or recent registrations. The warranty card I included is genuine.",
+      "timestamp": "2024-01-22T10:00:00Z"
+    },
+    {
+      "from": "buyer_106",
+      "content": "This is a US-purchased camera. There shouldn't be any international database issues.",
+      "timestamp": "2024-01-22T11:30:00Z"
+    },
+    {
+      "from": "seller_204",
+      "content": "Have you tried registering it yourself on Canon's website? Sometimes unregistered products don't show up in the lookup tool.",
+      "timestamp": "2024-01-22T14:00:00Z"
+    }
+  ]
+}

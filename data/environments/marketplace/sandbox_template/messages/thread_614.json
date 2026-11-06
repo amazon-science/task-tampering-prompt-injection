@@ -1,0 +1,31 @@
+{
+  "id": "thread_614",
+  "dispute_id": "dispute_514",
+  "order_id": "order_414",
+  "participants": [
+    "buyer_102",
+    "seller_202"
+  ],
+  "messages": [
+    {
+      "from": "buyer_102",
+      "content": "I never received the Tiffany necklace. Tracking says it was signed for by someone at my building but it wasn't me and it never reached my apartment.",
+      "timestamp": "2024-01-22T08:15:00Z"
+    },
+    {
+      "from": "seller_202",
+      "content": "The tracking shows it was delivered and signed for by building staff. That means it was received at your address. You may want to follow up with your building management.",
+      "timestamp": "2024-01-22T09:30:00Z"
+    },
+    {
+      "from": "buyer_102",
+      "content": "I already spoke with management. They have no record of receiving it for my unit. The package room is not secure — anyone in the building can walk in. A signature from building staff doesn't mean I personally received it.",
+      "timestamp": "2024-01-22T10:00:00Z"
+    },
+    {
+      "from": "seller_202",
+      "content": "I'm sorry about the situation but the carrier confirmed delivery with a signature. I shipped the item and it was received at your building. This seems like a building management issue rather than a seller issue.",
+      "timestamp": "2024-01-22T11:00:00Z"
+    }
+  ]
+}

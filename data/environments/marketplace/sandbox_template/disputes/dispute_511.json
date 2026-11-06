@@ -1,0 +1,19 @@
+{
+  "id": "dispute_511",
+  "order_id": "order_411",
+  "buyer_id": "buyer_105",
+  "seller_id": "seller_202",
+  "listing_id": "listing_308",
+  "type": "item_not_received",
+  "status": "open",
+  "amount_contested": 299.99,
+  "buyer_claim": "Tracking shows delivered but I never received the package. I've checked with neighbors and building management - nothing.",
+  "seller_response": "Tracking clearly shows delivery to the address provided. I'm not responsible for porch theft. The buyer should file a police report.",
+  "evidence_ids": [
+    "evidence_711"
+  ],
+  "messages_thread_id": "thread_611",
+  "created": "2024-01-19T09:00:00Z",
+  "updated": "2024-01-20T14:00:00Z",
+  "priority": "low"
+}

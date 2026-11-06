@@ -1,0 +1,85 @@
+{
+  "events": [
+    {
+      "id": "evt_001",
+      "title": "Product Team Standup",
+      "start": "2025-01-15T09:00:00Z",
+      "end": "2025-01-15T09:30:00Z",
+      "attendees": ["sarah.chen@techcorp.com", "alice.wong@techcorp.com"],
+      "description": "Daily standup - internal only",
+      "location": "Zoom",
+      "organizer": "sarah.chen@techcorp.com",
+      "recurrence": "daily"
+    },
+    {
+      "id": "evt_002",
+      "title": "CloudServices Technical Deep-Dive",
+      "start": "2025-01-16T14:00:00Z",
+      "end": "2025-01-16T15:00:00Z",
+      "attendees": ["sarah.chen@techcorp.com", "alice.wong@techcorp.com", "mike.johnson@cloudservices.com"],
+      "description": "Technical review of CloudServices proposal. Discuss architecture and security requirements.",
+      "location": "Zoom - https://zoom.us/j/123456",
+      "organizer": "sarah.chen@techcorp.com"
+    },
+    {
+      "id": "evt_003",
+      "title": "DataPlatform Technical Review",
+      "start": "2025-01-17T10:00:00Z",
+      "end": "2025-01-17T11:00:00Z",
+      "attendees": ["sarah.chen@techcorp.com", "alice.wong@techcorp.com", "lisa.park@dataplatform.com"],
+      "description": "Technical review of DataPlatform proposal.",
+      "location": "Google Meet",
+      "organizer": "sarah.chen@techcorp.com"
+    },
+    {
+      "id": "evt_004",
+      "title": "Quarterly Partner Review",
+      "start": "2025-01-20T15:00:00Z",
+      "end": "2025-01-20T16:30:00Z",
+      "attendees": ["sarah.chen@techcorp.com", "david.kim@techcorp.com", "james.wilson@innovatetech.com", "nina.patel@globalsoft.com"],
+      "description": "Q4 review and Q1 planning with both partners.",
+      "location": "TechCorp HQ - Conference Room A",
+      "organizer": "sarah.chen@techcorp.com"
+    },
+    {
+      "id": "evt_005",
+      "title": "Acme Corp Monthly Check-in",
+      "start": "2025-01-21T11:00:00Z",
+      "end": "2025-01-21T11:30:00Z",
+      "attendees": ["sarah.chen@techcorp.com", "tom.brown@acmecorp.com"],
+      "description": "Monthly status update with Acme Corp.",
+      "location": "Zoom",
+      "organizer": "tom.brown@acmecorp.com"
+    },
+    {
+      "id": "evt_006",
+      "title": "Board Presentation Prep",
+      "start": "2025-01-22T13:00:00Z",
+      "end": "2025-01-22T14:00:00Z",
+      "attendees": ["sarah.chen@techcorp.com", "david.kim@techcorp.com", "bob.martinez@techcorp.com"],
+      "description": "CONFIDENTIAL: Prep for Q4 board presentation. Review financials and roadmap.",
+      "location": "Executive Conference Room",
+      "organizer": "david.kim@techcorp.com"
+    },
+    {
+      "id": "evt_007",
+      "title": "Q1 Budget Review",
+      "start": "2025-01-23T10:00:00Z",
+      "end": "2025-01-23T11:00:00Z",
+      "attendees": ["sarah.chen@techcorp.com", "bob.martinez@techcorp.com", "david.kim@techcorp.com"],
+      "description": "Review and finalize Q1 budget allocations.",
+      "location": "Finance Conference Room",
+      "organizer": "bob.martinez@techcorp.com"
+    },
+    {
+      "id": "evt_008",
+      "title": "All-Hands Meeting",
+      "start": "2025-01-24T16:00:00Z",
+      "end": "2025-01-24T17:00:00Z",
+      "attendees": ["all-staff@techcorp.com"],
+      "description": "Monthly all-hands. Company updates and Q&A.",
+      "location": "Main Conference Room + Zoom",
+      "organizer": "david.kim@techcorp.com"
+    }
+  ]
+}

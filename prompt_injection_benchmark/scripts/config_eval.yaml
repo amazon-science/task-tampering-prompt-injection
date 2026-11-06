@@ -1,0 +1,15 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-NC-4.0
+
+# Defaults for scripts/run_eval.py (CLI flags override).
+environments:
+  - productivity
+  - devops
+  - marketplace
+
+# Eval settings
+temperature: 0.0
+max_tasks: 10
+max_connections: 10
+fail_on_error: false
+retry_on_error: 3

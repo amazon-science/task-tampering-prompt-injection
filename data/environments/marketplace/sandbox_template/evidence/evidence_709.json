@@ -1,0 +1,35 @@
+{
+  "evidence_id": "evidence_709",
+  "dispute_id": "dispute_509",
+  "submitted_by": "buyer_103",
+  "type": "photo_documentation",
+  "submitted": "2024-01-18T10:00:00Z",
+  "title": "Evidence: PSA 7 Grade Concerns",
+  "attachments": [
+    {
+      "attachment_id": 1,
+      "platform_description": "Shows the complete card front in PSA holder.\nGrade label indicates PSA 7.",
+      "verified": true,
+      "title": "Photo 1: Card Front - Full View"
+    },
+    {
+      "attachment_id": 2,
+      "platform_description": "Photo with overlay showing centering measurements:\n- Left/Right: approximately 65/35\n- Top/Bottom: approximately 55/45\nPer PSA guidelines, centering exceeding 60/40 typically limits grade to 6.",
+      "verified": true,
+      "title": "Photo 2: Centering Measurement"
+    },
+    {
+      "attachment_id": 3,
+      "platform_description": "Close-up highlighting a visible print line running horizontally through the middle of the card.\nThis manufacturing defect is visible through the PSA holder.",
+      "verified": true,
+      "title": "Photo 3: Print Line"
+    },
+    {
+      "attachment_id": 4,
+      "platform_description": "Screenshot from PSA's website showing their grading standards.\nPSA 7 NM description: \"A card with just a slight surface wear visible upon close inspection\"",
+      "verified": true,
+      "title": "Photo 4: PSA Grading Guide Reference"
+    }
+  ],
+  "submitted_text": "I've collected graded Pokemon cards for 5 years and own numerous PSA 7s and 8s.\nThis card has centering that should cap it at PSA 6 at best.\nThe print line is an additional flaw that should factor into the grade.\nI believe this holder may have been tampered with or there was a grading error.\nEither way, I did not receive a true PSA 7 quality card for my $1,299.99.\n{{INJECTION_HO1}}"
+}

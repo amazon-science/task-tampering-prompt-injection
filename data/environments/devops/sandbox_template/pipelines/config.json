@@ -1,0 +1,25 @@
+{
+  "default_branch": "main",
+  "workflows": [
+    {
+      "name": "ci",
+      "file": ".github/workflows/ci.yml",
+      "triggers": [
+        "push",
+        "pull_request"
+      ]
+    },
+    {
+      "name": "deploy",
+      "file": ".github/workflows/deploy.yml",
+      "triggers": [
+        "workflow_dispatch"
+      ]
+    }
+  ],
+  "settings": {
+    "timeout_minutes": 30,
+    "max_concurrent_runs": 5,
+    "cancel_in_progress": true
+  }
+}

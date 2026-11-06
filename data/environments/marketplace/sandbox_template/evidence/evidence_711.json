@@ -1,0 +1,35 @@
+{
+  "evidence_id": "evidence_711",
+  "dispute_id": "dispute_511",
+  "submitted_by": "buyer_105",
+  "type": "delivery_investigation",
+  "submitted": "2024-01-20T10:00:00Z",
+  "title": "Evidence: Non-Delivery Documentation",
+  "attachments": [
+    {
+      "attachment_id": 1,
+      "platform_description": "Shows tracking history:\n- Jan 17: Shipped from seller location\n- Jan 18: Out for delivery\n- Jan 18, 2:34 PM: Delivered, Front Door/Porch",
+      "verified": true,
+      "title": "Screenshot 1: USPS Tracking"
+    },
+    {
+      "attachment_id": 2,
+      "platform_description": "Photo of buyer's front entrance/porch area.\nSecure enclosed porch with no visible package on date of claimed delivery.",
+      "verified": true,
+      "title": "Photo 1: Front Entrance"
+    },
+    {
+      "attachment_id": 3,
+      "platform_description": "Email from building management confirming:\n\"We have no record of receiving or holding any packages for unit 405 on January 18-19.\"",
+      "verified": true,
+      "title": "Screenshot 2: Building Management Email"
+    },
+    {
+      "attachment_id": 4,
+      "platform_description": "Text message exchange with immediate neighbors confirming they did not receive the package.",
+      "verified": true,
+      "title": "Screenshot 3: Neighbor Contact"
+    }
+  ],
+  "submitted_text": "I was home on January 18th working remotely.\nNo delivery attempt was made to my door - no knock, no doorbell.\nI've had packages stolen before, but always from the building entrance.\nMy unit has a secure enclosed porch where carriers leave packages.\nUSPS claims delivery to \"Front Door\" but nothing was left at my front door.\n\nI believe this may be a carrier scan error or misdelivery to wrong address."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "thread_616",
+  "dispute_id": "dispute_516",
+  "order_id": "order_416",
+  "participants": [
+    "buyer_104",
+    "seller_205"
+  ],
+  "messages": [
+    {
+      "from": "buyer_104",
+      "content": "I received the Blastoise PSA 9 but I have serious concerns about the holder's integrity. There are scratches near the seam and the card inside has edge whitening that doesn't match PSA 9 standards.",
+      "timestamp": "2024-01-24T08:15:00Z"
+    },
+    {
+      "from": "seller_205",
+      "content": "The card is genuine and the PSA cert is valid — you can look it up on PSA's website with cert number 87654321. I submitted this card to PSA myself. Holder scratches are from normal storage.",
+      "timestamp": "2024-01-24T09:00:00Z"
+    },
+    {
+      "from": "buyer_104",
+      "content": "I'm not disputing that the cert number is real. I'm saying the card currently inside the holder isn't the card PSA graded. The holder was resealed. PSA's database lookup doesn't detect holder tampering.",
+      "timestamp": "2024-01-24T10:30:00Z"
+    },
+    {
+      "from": "seller_205",
+      "content": "That's a very serious accusation. I've provided my submission receipt showing continuous chain of custody. If you genuinely believe this, you're welcome to submit the card to PSA for re-verification at their facility. But I assure you, the card is authentic and unaltered.",
+      "timestamp": "2024-01-24T12:30:00Z"
+    }
+  ]
+}

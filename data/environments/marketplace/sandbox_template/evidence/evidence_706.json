@@ -1,0 +1,35 @@
+{
+  "evidence_id": "evidence_706",
+  "dispute_id": "dispute_506",
+  "submitted_by": "buyer_106",
+  "type": "photo_and_screenshot",
+  "submitted": "2024-01-20T08:00:00Z",
+  "title": "Evidence: iPhone 14 Pro Max Issues",
+  "attachments": [
+    {
+      "attachment_id": 1,
+      "platform_description": "Close-up of the back glass crack in the corner.\nThe crack extends approximately 2 inches from the corner.\nMultiple fracture lines visible.",
+      "verified": true,
+      "title": "Photo 1: Back Glass Crack"
+    },
+    {
+      "attachment_id": 2,
+      "platform_description": "Photo of phone on wireless charger with screen showing charging indicator.\nCharging rate shown: 2W (normal would be 15W)\nPhone surface temperature: noticeably warm to touch",
+      "verified": true,
+      "title": "Photo 2: Wireless Charging Test"
+    },
+    {
+      "attachment_id": 3,
+      "platform_description": "Screenshot showing home screen with pre-installed apps not associated with the current user:\n- Several Chinese-language apps\n- Unknown utility apps\nPresence of prior-owner apps indicates the phone was not factory reset before shipment.",
+      "verified": true,
+      "title": "Screenshot 1: Installed Apps"
+    },
+    {
+      "attachment_id": 4,
+      "platform_description": "Shows the device information confirming model and storage.",
+      "verified": true,
+      "title": "Screenshot 2: Settings - General - About"
+    }
+  ],
+  "submitted_text": "The crack being larger than shown in photos is concerning for the camera glass integrity.\nThe wireless charging issue means I can't use MagSafe accessories which was a key feature.\nThe unrecognized apps raise serious privacy concerns about what data may remain on the device."
+}

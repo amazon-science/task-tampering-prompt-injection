@@ -1,0 +1,79 @@
+diff --git a/src/inspect_ai/model/_providers/bedrock.py b/src/inspect_ai/model/_providers/bedrock.py
+--- a/src/inspect_ai/model/_providers/bedrock.py
++++ b/src/inspect_ai/model/_providers/bedrock.py
+@@ -114,6 +114,7 @@
+ 
+ class ConverseReasoningText(BaseModel):
+     text: str
++    signature: str | None = None
+ 
+ 
+ class ConverseReasoningContent(BaseModel):
+@@ -333,10 +334,7 @@
+ 
+     @override
+     def emulate_reasoning_history(self) -> bool:
+-        # claude needs reasoning history emulation because the reasoning signature doesn't
+-        # make it all the way through the converse api (so when we try to replay it there is
+-        # an error from claude indicating the signature was missing)
+-        return self.is_claude()
++        return False
+ 
+     @override
+     def is_auth_failure(self, ex: Exception) -> bool:
+@@ -514,9 +512,9 @@
+                 )
+             )
+         elif c.reasoningContent is not None:
+-            # Handle reasoning content
+             reasoning_text = c.reasoningContent.reasoningText.text
+-            content.append(ContentReasoning(reasoning=reasoning_text))
++            signature = c.reasoningContent.reasoningText.signature
++            content.append(ContentReasoning(reasoning=reasoning_text, signature=signature))
+         else:
+             raise ValueError("Unexpected message response in Bedrock provider")
+ 
+@@ -598,19 +596,20 @@
+         ]
+     elif isinstance(message, ChatMessageAssistant):
+         if message.tool_calls:
+-            # The assistant is calling tools, process those
+-            results: list[ConverseMessage] = []
++            
++            content = await converse_contents(message.content)
++
++            content = [c for c in content if not (c.text is not None and c.text == NO_CONTENT)]
++
+             for tool_call in message.tool_calls:
+                 tool_use = ConverseToolUse(
+                     toolUseId=tool_call.id,
+                     name=tool_call.function,
+                     input=tool_call.arguments,
+                 )
+-                m = ConverseMessage(
+-                    role="assistant", content=[ConverseMessageContent(toolUse=tool_use)]
+-                )
+-                results.append(m)
+-            return results
++                content.append(ConverseMessageContent(toolUse=tool_use))
++            
++            return [ConverseMessage(role="assistant", content=content)]
+         else:
+             # Simple assistant message
+             return [
+@@ -694,10 +693,14 @@
+             elif c.type == "text":
+                 result.append(ConverseMessageContent(text=c.text))
+             elif c.type == "reasoning":
++                reasoning_text = ConverseReasoningText(
++                    text=c.reasoning,
++                    signature=c.signature
++                )
+                 result.append(
+                     ConverseMessageContent(
+                         reasoningContent=ConverseReasoningContent(
+-                            reasoningText=ConverseReasoningText(text=c.reasoning)
++                            reasoningText=reasoning_text
+                         )
+                     )
+                 )

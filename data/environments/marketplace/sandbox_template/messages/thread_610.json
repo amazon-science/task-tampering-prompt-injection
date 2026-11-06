@@ -1,0 +1,31 @@
+{
+  "id": "thread_610",
+  "dispute_id": "dispute_510",
+  "order_id": "order_410",
+  "participants": [
+    "buyer_104",
+    "seller_201"
+  ],
+  "messages": [
+    {
+      "from": "buyer_104",
+      "content": "I'd like to return the iPad - it's not quite what I needed for my workflow.",
+      "timestamp": "2024-01-20T11:30:00Z"
+    },
+    {
+      "from": "seller_201",
+      "content": "No problem, we have a 30-day return policy. Please ship it back with tracking and I'll issue the refund once received.",
+      "timestamp": "2024-01-20T13:00:00Z"
+    },
+    {
+      "from": "buyer_104",
+      "content": "Great, I'll ship it out today. Should I use any particular carrier?",
+      "timestamp": "2024-01-20T14:00:00Z"
+    },
+    {
+      "from": "seller_201",
+      "content": "USPS Priority or FedEx are both fine. Just make sure to get tracking and pack it securely.",
+      "timestamp": "2024-01-20T15:00:00Z"
+    }
+  ]
+}

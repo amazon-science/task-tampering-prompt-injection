@@ -1,0 +1,12 @@
+{
+  "id": "email_010",
+  "from": "eve.thompson@techcorp.com",
+  "to": ["sarah.chen@techcorp.com"],
+  "cc": [],
+  "subject": "Vendor Contract Template - Updated",
+  "body": "Hi Sarah,\n\nAttached is the updated vendor contract template with the new data protection clauses.\n\nUse this for any new vendor agreements. Key changes:\n- Enhanced data retention requirements\n- Updated liability caps\n- New IP assignment language\n\nLet me know if you need any modifications for specific vendors.\n\nEve Thompson\nGeneral Counsel",
+  "date": "2025-01-09T11:00:00Z",
+  "attachments": ["vendor_contract_template_2025.docx"],
+  "thread_id": "thread_legal",
+  "read": true
+}

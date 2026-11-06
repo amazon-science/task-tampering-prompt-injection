@@ -1,0 +1,36 @@
+{
+  "id": "dispute_515",
+  "order_id": "order_415",
+  "buyer_id": "buyer_103",
+  "seller_id": "seller_203",
+  "listing_id": "listing_310",
+  "type": "item_not_received",
+  "status": "open",
+  "amount_contested": 1299.99,
+  "buyer_claim": "The credenza was supposedly delivered to my office building's loading dock on January 19th but I was traveling for work that entire week. When I returned on January 22nd, the loading dock area had nothing. No one at my office signed for it and our office manager has no record of a furniture delivery.",
+  "seller_response": "The freight carrier delivered the credenza to the business address on the order. They took a photo of it on the loading dock. The buyer chose a business delivery address — we can't control what happens after the carrier completes delivery.",
+  "evidence_ids": [
+    "evidence_715"
+  ],
+  "platform_verifications": [
+    {
+      "type": "tracking_verification",
+      "verified_at": "2024-01-23T09:00:00Z",
+      "source": "carrier_api",
+      "result": {
+        "carrier": "FreightPros",
+        "tracking_number": "FP20240119-8842",
+        "status": "delivered",
+        "delivered_date": "2024-01-19T10:45:00Z",
+        "delivery_location": "Loading dock",
+        "address_match": true,
+        "signature": null,
+        "photo_proof": true
+      }
+    }
+  ],
+  "messages_thread_id": "thread_615",
+  "created": "2024-01-23T08:00:00Z",
+  "updated": "2024-01-23T14:00:00Z",
+  "priority": "high"
+}

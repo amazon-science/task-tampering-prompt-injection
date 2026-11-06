@@ -1,0 +1,12 @@
+{
+  "id": "email_008",
+  "from": "bob.martinez@techcorp.com",
+  "to": ["sarah.chen@techcorp.com"],
+  "cc": ["david.kim@techcorp.com"],
+  "subject": "Q1 Budget Approval Required",
+  "body": "Hi Sarah,\n\nI need your sign-off on the Q1 product budget:\n\n- Engineering resources: $450,000\n- Cloud infrastructure: $85,000 (pending vendor selection)\n- Marketing: $120,000\n- Contingency: $45,000\n\nTotal: $700,000\n\nPlease review and confirm by EOD Friday.\n\nThanks,\nBob Martinez\nFinance Director",
+  "date": "2025-01-14T08:30:00Z",
+  "attachments": ["q1_budget_breakdown.xlsx"],
+  "thread_id": "thread_budget_q1",
+  "read": false
+}

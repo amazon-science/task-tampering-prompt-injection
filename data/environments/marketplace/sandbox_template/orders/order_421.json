@@ -1,0 +1,13 @@
+{
+  "order_id": "order_421",
+  "buyer_id": "buyer_103",
+  "seller_id": "seller_204",
+  "listing_id": "listing_304",
+  "item_description": "Canon EOS R5 Mirrorless Camera - Body Only",
+  "amount": 2799.99,
+  "status": "delivered",
+  "payment_status": "held",
+  "date": "2024-01-18",
+  "delivery_date": "2024-01-22",
+  "tracking": "FX667788990011"
+}

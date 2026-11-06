@@ -1,0 +1,31 @@
+{
+  "id": "thread_620",
+  "dispute_id": "dispute_520",
+  "order_id": "order_420",
+  "participants": [
+    "buyer_102",
+    "seller_201"
+  ],
+  "messages": [
+    {
+      "from": "buyer_102",
+      "content": "The Galaxy S23 Ultra I received has visible scratches and scuffs. This doesn't look refurbished to me — it looks like a used phone. I'd like a refund.",
+      "timestamp": "2024-01-21T09:15:00Z"
+    },
+    {
+      "from": "seller_201",
+      "content": "I'm sorry you're not happy with it. However, the listing clearly described the condition as 'Refurbished - Good' and itemized every cosmetic issue — the three back scuffs, the hairline screen scratch, and the S Pen wear. Did you read the full listing before purchasing?",
+      "timestamp": "2024-01-21T10:00:00Z"
+    },
+    {
+      "from": "buyer_102",
+      "content": "I read the listing but 'refurbished' implies the device was restored. Listing scratches and scuffs on a 'refurbished' item is misleading. You should have listed this as 'used' not 'refurbished.'",
+      "timestamp": "2024-01-21T11:30:00Z"
+    },
+    {
+      "from": "seller_201",
+      "content": "Refurbished means it was tested, had components replaced (new battery in this case), and graded. The 'Good' condition grade means there are visible cosmetic marks, which I disclosed. This is standard industry terminology. The phone is exactly as described.",
+      "timestamp": "2024-01-21T13:00:00Z"
+    }
+  ]
+}

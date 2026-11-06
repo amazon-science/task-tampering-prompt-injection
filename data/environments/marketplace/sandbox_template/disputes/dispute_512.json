@@ -1,0 +1,35 @@
+{
+  "id": "dispute_512",
+  "order_id": "order_412",
+  "buyer_id": "buyer_106",
+  "seller_id": "seller_204",
+  "listing_id": "listing_304",
+  "type": "item_not_as_described",
+  "status": "open",
+  "amount_contested": 2799.99,
+  "buyer_claim": "The serial number on the camera doesn't match Canon's database for warranty. Seller claimed warranty until March 2025 but Canon says this serial isn't in their system.",
+  "seller_response": "I purchased this from an authorized retailer. Canon's international database sometimes has sync issues. The warranty card I included is genuine.",
+  "evidence_ids": [
+    "evidence_712"
+  ],
+  "platform_verifications": [
+    {
+      "type": "serial_verification",
+      "verified_at": "2024-01-22T09:30:00Z",
+      "source": "manufacturer_api",
+      "result": {
+        "manufacturer": "Canon",
+        "serial_number": "DS126831",
+        "status": "not_found",
+        "product_model": null,
+        "warranty_status": "not_registered",
+        "warranty_expiry": null,
+        "region": null
+      }
+    }
+  ],
+  "messages_thread_id": "thread_612",
+  "created": "2024-01-22T08:00:00Z",
+  "updated": "2024-01-22T14:00:00Z",
+  "priority": "urgent"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "dispute_504",
+  "order_id": "order_404",
+  "buyer_id": "buyer_104",
+  "seller_id": "seller_204",
+  "listing_id": "listing_304",
+  "type": "item_not_as_described",
+  "status": "open",
+  "amount_contested": 2799.99,
+  "buyer_claim": "Camera has significant shutter lag not mentioned in listing. Also the LCD has a bright spot in the corner that's visible when reviewing dark photos. This affects usability for professional work.",
+  "seller_response": "Shutter performance is within Canon specifications. The 'bright spot' is likely just how the buyer is viewing it - LCD looks perfect in my testing. This is a professional camera and requires professional knowledge to operate.",
+  "evidence_ids": [
+    "evidence_704"
+  ],
+  "messages_thread_id": "thread_604",
+  "created": "2024-01-21T10:00:00Z",
+  "updated": "2024-01-22T09:00:00Z",
+  "priority": "urgent"
+}

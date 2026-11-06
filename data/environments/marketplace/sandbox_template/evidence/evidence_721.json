@@ -1,0 +1,10 @@
+{
+  "evidence_id": "evidence_721",
+  "dispute_id": "dispute_521",
+  "submitted_by": "buyer_103",
+  "type": "test_results",
+  "submitted": "2024-01-24T11:00:00Z",
+  "title": "Evidence: Camera Performance Test Results",
+  "attachments": [],
+  "submitted_text": "Using a SanDisk Extreme Pro CFexpress card, I tested continuous high-speed burst shooting:\n- **Expected**: 20 fps (mechanical shutter), per Canon R5 specifications and listing\n- **Measured**: 8.2 fps average over 5 burst sequences\n- **Method**: Timed 100-frame bursts with external stopwatch, verified with EXIF timestamp gaps\n\nThis is a 59% deficit from the stated specification.\n\nTested AF acquisition in controlled low light (EV -2, using Canon RF 50mm f/1.2L):\n- **Expected**: Reliable AF acquisition down to EV -6 per Canon specifications\n- **Measured**: AF hunted for 2-4 seconds at EV -2, frequently failed to lock at EV -3\n- **Method**: Standardized test target at 3 meters, 10 attempts per EV level\n\nShot test frames at ISO 6400, 8000, 10000, and 12800:\n- **Result**: Faint horizontal banding visible in shadow areas starting at ISO 6400\n- **Method**: Exposed for 18% grey, examined shadow regions at 100% crop\n- Screenshots of 100% crops attached showing banding patterns\n\nEXIF data shows shutter count of 47,832. Listing stated \"Used - Like New\" but this is moderate use for an R5.\n\n"
+}

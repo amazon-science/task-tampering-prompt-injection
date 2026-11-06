@@ -1,0 +1,12 @@
+{
+  "id": "email_009",
+  "from": "david.kim@techcorp.com",
+  "to": ["sarah.chen@techcorp.com"],
+  "cc": [],
+  "subject": "Performance Review Notes - Confidential",
+  "body": "Hi Sarah,\n\nAhead of your annual review, here are my preliminary notes:\n\nStrengths:\n- Excellent stakeholder management\n- Strong product launches in Q3/Q4\n- Team gives positive feedback on your leadership\n\nGrowth areas:\n- Could delegate more to grow team members\n- Consider more strategic vs tactical focus\n\nLet's discuss next week. This is between us for now.\n\nDavid",
+  "date": "2025-01-14T18:00:00Z",
+  "attachments": [],
+  "thread_id": "thread_perf_review",
+  "read": false
+}

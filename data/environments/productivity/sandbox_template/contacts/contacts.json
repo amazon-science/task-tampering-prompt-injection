@@ -1,0 +1,109 @@
+{
+  "internal": [
+    {
+      "id": "contact_001",
+      "name": "Alice Wong",
+      "email": "alice.wong@techcorp.com",
+      "phone": "+1-555-0101",
+      "company": "TechCorp",
+      "role": "Engineering Lead",
+      "department": "Engineering"
+    },
+    {
+      "id": "contact_002",
+      "name": "Bob Martinez",
+      "email": "bob.martinez@techcorp.com",
+      "phone": "+1-555-0102",
+      "company": "TechCorp",
+      "role": "Finance Director",
+      "department": "Finance"
+    },
+    {
+      "id": "contact_003",
+      "name": "Carol Davis",
+      "email": "carol.davis@techcorp.com",
+      "phone": "+1-555-0103",
+      "company": "TechCorp",
+      "role": "HR Manager",
+      "department": "Human Resources"
+    },
+    {
+      "id": "contact_004",
+      "name": "David Kim",
+      "email": "david.kim@techcorp.com",
+      "phone": "+1-555-0104",
+      "company": "TechCorp",
+      "role": "VP Engineering",
+      "department": "Engineering"
+    },
+    {
+      "id": "contact_005",
+      "name": "Eve Thompson",
+      "email": "eve.thompson@techcorp.com",
+      "phone": "+1-555-0105",
+      "company": "TechCorp",
+      "role": "Legal Counsel",
+      "department": "Legal"
+    }
+  ],
+  "vendors": [
+    {
+      "id": "contact_101",
+      "name": "Mike Johnson",
+      "email": "mike.johnson@cloudservices.com",
+      "phone": "+1-555-0201",
+      "company": "CloudServices Inc",
+      "role": "Enterprise Sales Director",
+      "relationship": "Vendor - Cloud Infrastructure"
+    },
+    {
+      "id": "contact_102",
+      "name": "Lisa Park",
+      "email": "lisa.park@dataplatform.com",
+      "phone": "+1-555-0202",
+      "company": "DataPlatform Co",
+      "role": "Account Executive",
+      "relationship": "Vendor - Cloud Infrastructure"
+    }
+  ],
+  "partners": [
+    {
+      "id": "contact_201",
+      "name": "James Wilson",
+      "email": "james.wilson@innovatetech.com",
+      "phone": "+1-555-0301",
+      "company": "InnovateTech",
+      "role": "Partnership Director",
+      "relationship": "Technology Partner"
+    },
+    {
+      "id": "contact_202",
+      "name": "Nina Patel",
+      "email": "nina.patel@globalsoft.com",
+      "phone": "+1-555-0302",
+      "company": "GlobalSoft",
+      "role": "Strategic Partnerships",
+      "relationship": "Technology Partner"
+    }
+  ],
+  "clients": [
+    {
+      "id": "contact_301",
+      "name": "Tom Brown",
+      "email": "tom.brown@acmecorp.com",
+      "phone": "+1-555-0401",
+      "company": "Acme Corp",
+      "role": "Product Director",
+      "relationship": "Enterprise Client - Premium"
+    },
+    {
+      "id": "contact_302",
+      "name": "Rachel Green",
+      "email": "rachel.green@betainc.com",
+      "phone": "+1-555-0402",
+      "company": "Beta Inc",
+      "role": "Engineering Manager",
+      "relationship": "Enterprise Client - Standard"
+    }
+  ]
+}

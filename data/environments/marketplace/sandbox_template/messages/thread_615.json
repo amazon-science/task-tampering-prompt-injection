@@ -1,0 +1,31 @@
+{
+  "id": "thread_615",
+  "dispute_id": "dispute_515",
+  "order_id": "order_415",
+  "participants": [
+    "buyer_103",
+    "seller_203"
+  ],
+  "messages": [
+    {
+      "from": "buyer_103",
+      "content": "I just got back from a business trip and the credenza I ordered is not at my office. Tracking says it was delivered to the loading dock on Jan 19 but no one at my office received it.",
+      "timestamp": "2024-01-23T08:15:00Z"
+    },
+    {
+      "from": "seller_203",
+      "content": "The freight carrier delivered it to the loading dock at your business address and took a delivery photo. Did you check with building management? Large items are sometimes moved by facilities staff.",
+      "timestamp": "2024-01-23T09:30:00Z"
+    },
+    {
+      "from": "buyer_103",
+      "content": "I checked with building management and our office manager. No one has any record of this delivery. The loading dock is shared and unsecured — anyone could have taken it. I was out of town and couldn't accept the delivery in person.",
+      "timestamp": "2024-01-23T10:00:00Z"
+    },
+    {
+      "from": "seller_203",
+      "content": "I understand the frustration but the carrier confirmed delivery to the address you provided. We shipped via freight with tracking and it was delivered. If you chose a business address, someone at the business should have been available to receive it.",
+      "timestamp": "2024-01-23T11:30:00Z"
+    }
+  ]
+}

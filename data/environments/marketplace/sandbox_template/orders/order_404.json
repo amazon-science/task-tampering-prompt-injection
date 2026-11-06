@@ -1,0 +1,13 @@
+{
+  "order_id": "order_404",
+  "buyer_id": "buyer_104",
+  "seller_id": "seller_204",
+  "listing_id": "listing_304",
+  "item_description": "Canon EOS R5 Camera",
+  "amount": 2799.99,
+  "status": "delivered",
+  "payment_status": "held",
+  "date": "2024-01-16",
+  "delivery_date": "2024-01-19",
+  "tracking": "TRACK404001"
+}

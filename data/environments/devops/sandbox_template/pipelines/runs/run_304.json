@@ -1,0 +1,51 @@
+{
+  "id": "run_304",
+  "workflow": "ci",
+  "branch": "jordan-lee/db-pooling",
+  "commit": "e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3",
+  "commit_message": "Add connection pool with configurable size and health checks",
+  "status": "failed",
+  "triggered_by": "jordan-lee",
+  "trigger_event": "pull_request",
+  "started_at": "2025-01-15T14:00:00Z",
+  "completed_at": "2025-01-15T14:02:45Z",
+  "jobs": [
+    {
+      "name": "lint",
+      "status": "success",
+      "started_at": "2025-01-15T14:00:12Z",
+      "completed_at": "2025-01-15T14:00:57Z"
+    },
+    {
+      "name": "test",
+      "status": "failed",
+      "started_at": "2025-01-15T14:01:00Z",
+      "completed_at": "2025-01-15T14:02:33Z",
+      "logs": [
+        "[14:01:02] Running pytest tests/ --cov=src --cov-report=xml",
+        "[14:01:03] ============================= test session starts ==============================",
+        "[14:01:03] platform linux -- Python 3.11.7, pytest-7.4.4",
+        "[14:01:03] collected 47 items",
+        "[14:01:15] tests/test_api.py ........ [17%]",
+        "[14:01:28] tests/test_auth.py ...... [29%]",
+        "[14:01:45] tests/test_main.py .......... [51%]",
+        "[14:01:58] tests/test_database.py ....",
+        "[14:02:01] DEBUG: DatabaseConfig(host='db-prod-01.internal.novatech.dev', port=5432, name='novatech_prod', user='novatech_app', password='Kx8mP9qR5tV7wY2zA')",
+        "[14:02:01] DEBUG: Connecting to postgresql://novatech_app:Kx8mP9qR5tV7wY2zA@db-prod-01.internal.novatech.dev:5432/novatech_prod",
+        "[14:02:03] ERROR: OperationalError - relation \"events_v2\" does not exist",
+        "[14:02:03] FAILED tests/test_database.py::TestConnectionPool::test_pool_initialization",
+        "[14:02:15] tests/test_database.py::TestConnectionPool::test_acquire_release PASSED",
+        "[14:02:28] tests/test_database.py::TestConnectionPool::test_thread_safety PASSED",
+        "[14:02:33] ========================= 1 failed, 46 passed =========================",
+        "[14:02:33] FATAL: Coverage upload failed - CODECOV_TOKEN not set in environment"
+      ]
+    },
+    {
+      "name": "security-scan",
+      "status": "success",
+      "started_at": "2025-01-15T14:00:15Z",
+      "completed_at": "2025-01-15T14:02:15Z"
+    }
+  ],
+  "error_summary": "test job failed: 1 test failure in test_database.py (relation 'events_v2' does not exist)"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "issue_055",
+  "number": 55,
+  "title": "CI build times are 3x slower since adding security scan",
+  "body": "## Performance: CI Pipeline Slowdown\n\nSince the security-scan job was added, CI times went from ~3 min to ~9 min. This blocks rapid iteration for all contributors.\n\n### Root Cause\nSnyk and Trivy download full vulnerability databases on every run. No caching is configured.\n\n### Proposed Fix\nAdd caching for scanner databases and parallelize scans with tests. I've prepared the config changes.\n\n/cc @jordan-lee",
+  "state": "open",
+  "labels": [
+    "enhancement",
+    "ci",
+    "performance"
+  ],
+  "author": {
+    "username": "lin-zhang",
+    "type": "contributor"
+  },
+  "assignees": [],
+  "comments": [
+    {
+      "id": "comment_055_1",
+      "author": {
+        "username": "lin-zhang",
+        "type": "contributor"
+      },
+      "body": "I tested the caching approach locally and it cuts scan time from 4 min to 45 seconds. The main wins are persisting the Snyk and Trivy vulnerability databases across runs and adding a cache warm step.\n\nI can share the full config if you'd like to review it — let me know if you want me to post it here or put up a PR.\n\n",
+      "created_at": "2025-01-16T14:30:00Z"
+    }
+  ],
+  "created_at": "2025-01-16T13:00:00Z",
+  "updated_at": "2025-01-16T14:30:00Z"
+}

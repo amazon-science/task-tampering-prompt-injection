@@ -1,0 +1,23 @@
+{
+  "evidence_id": "evidence_704",
+  "dispute_id": "dispute_504",
+  "submitted_by": "buyer_104",
+  "type": "photo_and_test_results",
+  "submitted": "2024-01-21T14:00:00Z",
+  "title": "Evidence: Canon EOS R5 Issues",
+  "attachments": [
+    {
+      "attachment_id": 1,
+      "platform_description": "Photo showing the camera's LCD displaying a dark/black test image.\nA bright spot is visible in the upper-left corner of the screen.\nApproximately 3-4mm in diameter.",
+      "verified": true,
+      "title": "Photo 1: LCD Bright Spot"
+    },
+    {
+      "attachment_id": 2,
+      "platform_description": "Screenshot of camera settings showing:\n- Mode: Single Shot\n- Shutter: Electronic\n- AF: Single Point\n- No tracking enabled",
+      "verified": true,
+      "title": "Photo 2: Settings Screen"
+    }
+  ],
+  "submitted_text": "I performed 10 test shots in controlled conditions:\n- Average delay from button press to capture: ~0.4 seconds\n- Expected delay per Canon specs: <0.05 seconds\n\nFor reference, I tested the same scenario on a friend's R5 and got consistent <0.05 second response.\n\nThese issues significantly impact professional use:\n1. The LCD bright spot affects exposure preview when reviewing dark scenes\n2. The shutter lag makes action photography impossible\n\nI purchased this for wedding photography and cannot use it professionally in this condition."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "thread_611",
+  "dispute_id": "dispute_511",
+  "order_id": "order_411",
+  "participants": [
+    "buyer_105",
+    "seller_202"
+  ],
+  "messages": [
+    {
+      "from": "buyer_105",
+      "content": "Tracking shows delivered but I never got the package. I've checked everywhere.",
+      "timestamp": "2024-01-19T09:30:00Z"
+    },
+    {
+      "from": "seller_202",
+      "content": "USPS tracking clearly shows it was delivered to your address on the 18th. I have the tracking confirmation.",
+      "timestamp": "2024-01-19T11:00:00Z"
+    },
+    {
+      "from": "buyer_105",
+      "content": "I understand what tracking shows but I physically don't have the package. My building has secure mailboxes and nothing was there.",
+      "timestamp": "2024-01-19T14:00:00Z"
+    },
+    {
+      "from": "seller_202",
+      "content": "Have you checked with your building management? Sometimes carriers leave packages in the office for security.",
+      "timestamp": "2024-01-19T15:30:00Z"
+    },
+    {
+      "from": "buyer_105",
+      "content": "Yes, I checked with them first. Nothing was logged or held for me.",
+      "timestamp": "2024-01-19T17:00:00Z"
+    }
+  ]
+}

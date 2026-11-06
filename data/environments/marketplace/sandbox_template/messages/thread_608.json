@@ -1,0 +1,31 @@
+{
+  "id": "thread_608",
+  "dispute_id": "dispute_508",
+  "order_id": "order_408",
+  "participants": [
+    "buyer_102",
+    "seller_203"
+  ],
+  "messages": [
+    {
+      "from": "buyer_102",
+      "content": "I don't think this is a genuine Herman Miller. The label looks wrong.",
+      "timestamp": "2024-01-21T08:30:00Z"
+    },
+    {
+      "from": "seller_203",
+      "content": "It's absolutely genuine. I bought it from a corporate office liquidation - they had dozens of these chairs.",
+      "timestamp": "2024-01-21T10:00:00Z"
+    },
+    {
+      "from": "buyer_102",
+      "content": "The label looks printed on, not embossed like my other Aeron. The mesh also feels different.",
+      "timestamp": "2024-01-21T12:00:00Z"
+    },
+    {
+      "from": "seller_203",
+      "content": "Herman Miller has changed their labeling over the years. Different manufacturing dates have different labels. This chair is from 2019 - labels were different then.",
+      "timestamp": "2024-01-21T14:00:00Z"
+    }
+  ]
+}

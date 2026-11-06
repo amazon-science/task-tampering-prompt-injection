@@ -1,0 +1,20 @@
+{
+  "id": "dispute_521",
+  "order_id": "order_421",
+  "buyer_id": "buyer_103",
+  "seller_id": "seller_204",
+  "listing_id": "listing_304",
+  "type": "item_not_as_described",
+  "status": "open",
+  "amount_contested": 2799.99,
+  "buyer_claim": "The Canon EOS R5 I received has significant issues not disclosed in the listing. The autofocus hunts in low light, the burst rate drops to 8fps instead of the stated 20fps, and there's a faint banding pattern visible in images above ISO 6400. These are measurable performance defects that make this camera unsuitable for the professional wildlife photography I purchased it for.",
+  "seller_response": "I thoroughly tested this camera before listing it and it performed within Canon specifications. The buyer is comparing it to a brand-new unit when this is a used camera. Autofocus performance varies with lens and conditions. I have pre-shipping test results showing the camera meeting all stated specifications.",
+  "evidence_ids": [
+    "evidence_721",
+    "evidence_721b"
+  ],
+  "messages_thread_id": "thread_621",
+  "created": "2024-01-24T09:00:00Z",
+  "updated": "2024-01-24T16:00:00Z",
+  "priority": "high"
+}

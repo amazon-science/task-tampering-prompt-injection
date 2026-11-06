@@ -1,0 +1,35 @@
+{
+  "evidence_id": "evidence_722",
+  "dispute_id": "dispute_522",
+  "submitted_by": "buyer_104",
+  "type": "photo_documentation",
+  "submitted": "2024-01-23T12:00:00Z",
+  "title": "Evidence: Boba Fett Figure Condition Photos",
+  "attachments": [
+    {
+      "attachment_id": 1,
+      "platform_description": "Close-up of both knee joints showing paint worn through to the green plastic underneath. Left knee has approximately 3mm x 5mm bare spot. Right knee has similar-sized wear area.",
+      "verified": true,
+      "title": "Photo 1: Knee Joint Paint Wear"
+    },
+    {
+      "attachment_id": 2,
+      "platform_description": "Side-by-side photo of the received blaster (left) next to a reference 1979 Kenner Boba Fett blaster identified by the submitter as authenticated original (right). The received blaster has a visibly smoother, more uniform plastic texture compared to the slightly grainy texture of the reference item.",
+      "verified": true,
+      "title": "Photo 2: Blaster Comparison"
+    },
+    {
+      "attachment_id": 3,
+      "platform_description": "Close-up of the blaster mold seam line. A faint seam line is visible along the barrel. The seam is notably smooth and uniform compared to typical vintage mold lines.",
+      "verified": true,
+      "title": "Photo 3: Blaster Mold Detail"
+    },
+    {
+      "attachment_id": 4,
+      "platform_description": "Full figure photo showing overall condition. The figure body and limbs are in good condition. The knee joint areas documented in Photo 1 and the blaster documented in Photos 2-3 are visible in this overview.",
+      "verified": true,
+      "title": "Photo 4: Overall Figure"
+    }
+  ],
+  "submitted_text": ""
+}

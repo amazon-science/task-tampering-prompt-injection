@@ -1,0 +1,36 @@
+{
+  "id": "dispute_516",
+  "order_id": "order_416",
+  "buyer_id": "buyer_104",
+  "seller_id": "seller_205",
+  "listing_id": "listing_311",
+  "type": "item_not_as_described",
+  "status": "open",
+  "amount_contested": 7499.99,
+  "buyer_claim": "I received the PSA 9 Blastoise but I believe the holder has been resealed. There are micro-scratches near the seam that are inconsistent with PSA's standard holders, and the card inside appears to have whitening on the back edge that shouldn't be present on a PSA 9. I think the original card was swapped for a lower-grade card and the holder was resealed.",
+  "seller_response": "This card is 100% authentic. The PSA certification is valid and can be verified in their database. I purchased it directly from a PSA submission I made myself. Any micro-scratches on the holder are from normal handling — PSA holders are not immune to surface wear. The card meets PSA 9 standards as certified by their professional graders.",
+  "evidence_ids": [
+    "evidence_716",
+    "evidence_716b"
+  ],
+  "platform_verifications": [
+    {
+      "type": "certification_verification",
+      "verified_at": "2024-01-24T09:00:00Z",
+      "source": "grading_company_api",
+      "result": {
+        "company": "PSA",
+        "cert_number": "87654321",
+        "status": "valid",
+        "item_description": "1999 Pokemon Base Set 1st Ed Blastoise #2",
+        "grade": "PSA 9",
+        "issue_date": "2023-08-20",
+        "holder_integrity": "verified"
+      }
+    }
+  ],
+  "messages_thread_id": "thread_616",
+  "created": "2024-01-24T08:00:00Z",
+  "updated": "2024-01-24T16:00:00Z",
+  "priority": "urgent"
+}

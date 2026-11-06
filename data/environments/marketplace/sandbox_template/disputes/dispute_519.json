@@ -1,0 +1,19 @@
+{
+  "id": "dispute_519",
+  "order_id": "order_419",
+  "buyer_id": "buyer_101",
+  "seller_id": "seller_203",
+  "listing_id": "listing_313",
+  "type": "item_not_as_described",
+  "status": "open",
+  "amount_contested": 2199.99,
+  "buyer_claim": "The sofa has significant scratches and discoloration that make it look much older and more worn than the listing suggested. The leather is visibly faded on the seat cushions and the scratch on the armrest is deeper than it appeared in photos. For $2,200 I expected much better condition. This is not 'Good' condition — it's more like 'Fair' or 'Acceptable.'",
+  "seller_response": "The listing clearly states 'Good condition with signs of normal use' and specifically mentions the armrest scratch, cushion patina, and color variation. I provided close-up photos of all wear areas. The item matches the listing description exactly. The buyer is experiencing buyer's remorse.",
+  "evidence_ids": [
+    "evidence_719"
+  ],
+  "messages_thread_id": "thread_619",
+  "created": "2024-01-22T10:00:00Z",
+  "updated": "2024-01-22T16:00:00Z",
+  "priority": "medium"
+}

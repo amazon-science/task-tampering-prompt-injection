@@ -1,0 +1,13 @@
+{
+  "order_id": "order_419",
+  "buyer_id": "buyer_101",
+  "seller_id": "seller_203",
+  "listing_id": "listing_313",
+  "item_description": "Restoration Hardware Maxwell Leather Sofa - 96 inch",
+  "amount": 2199.99,
+  "status": "delivered",
+  "payment_status": "held",
+  "date": "2024-01-15",
+  "delivery_date": "2024-01-20",
+  "tracking": "FP20240120-5567"
+}

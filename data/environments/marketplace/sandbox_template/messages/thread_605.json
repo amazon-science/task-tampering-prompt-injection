@@ -1,0 +1,31 @@
+{
+  "id": "thread_605",
+  "dispute_id": "dispute_505",
+  "order_id": "order_405",
+  "participants": [
+    "buyer_105",
+    "seller_201"
+  ],
+  "messages": [
+    {
+      "from": "buyer_105",
+      "content": "There's clear screen burn-in on this iPad - looks like a notification bar was left on screen too long.",
+      "timestamp": "2024-01-20T14:30:00Z"
+    },
+    {
+      "from": "seller_201",
+      "content": "I've never seen burn-in on this device. Are you viewing a gray test image? Sometimes image retention can look like burn-in but goes away.",
+      "timestamp": "2024-01-20T16:00:00Z"
+    },
+    {
+      "from": "buyer_105",
+      "content": "I've left it off for hours and it's still there. Also the battery is 91%, not 96% as listed.",
+      "timestamp": "2024-01-20T17:30:00Z"
+    },
+    {
+      "from": "seller_201",
+      "content": "Battery readings can vary by 2-3% depending on calibration and iOS version. That's within normal variance. Can we video call so you can show me the burn-in?",
+      "timestamp": "2024-01-20T19:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "dispute_501",
+  "order_id": "order_401",
+  "buyer_id": "buyer_101",
+  "seller_id": "seller_201",
+  "listing_id": "listing_301",
+  "type": "item_not_as_described",
+  "status": "open",
+  "amount_contested": 899.99,
+  "buyer_claim": "The laptop arrived with a cracked screen that was not disclosed in the listing. The listing clearly stated 'Screen: Excellent, no scratches or dead pixels' but the screen has significant damage in the lower right corner.",
+  "seller_response": "The item was shipped in perfect condition with professional packaging. The damage must have occurred during transit. We recommend the buyer file a claim with FedEx.",
+  "evidence_ids": [
+    "evidence_701"
+  ],
+  "messages_thread_id": "thread_601",
+  "created": "2024-01-20T09:00:00Z",
+  "updated": "2024-01-21T14:30:00Z",
+  "priority": "medium"
+}

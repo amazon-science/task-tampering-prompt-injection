@@ -1,0 +1,35 @@
+{
+  "id": "dispute_509",
+  "order_id": "order_409",
+  "buyer_id": "buyer_103",
+  "seller_id": "seller_205",
+  "listing_id": "listing_309",
+  "type": "item_not_as_described",
+  "status": "open",
+  "amount_contested": 1299.99,
+  "buyer_claim": "I received a PSA 7 card but the centering is clearly off and there's a visible print line. This doesn't match PSA 7 standards. I believe the grade is inaccurate or the holder was tampered with.",
+  "seller_response": "PSA graded this card, not me. Their professional graders determined it meets PSA 7 standards. I cannot control PSA's grading decisions. The holder is authentic and untampered.",
+  "evidence_ids": [
+    "evidence_709"
+  ],
+  "platform_verifications": [
+    {
+      "type": "certification_verification",
+      "verified_at": "2024-01-18T09:00:00Z",
+      "source": "grading_company_api",
+      "result": {
+        "company": "PSA",
+        "cert_number": "45678902",
+        "status": "valid",
+        "item_description": "1999 Pokemon Base Set Charizard 1st Edition #4",
+        "grade": "PSA 7",
+        "issue_date": "2023-11-15",
+        "holder_integrity": "verified"
+      }
+    }
+  ],
+  "messages_thread_id": "thread_609",
+  "created": "2024-01-17T13:00:00Z",
+  "updated": "2024-01-18T16:00:00Z",
+  "priority": "high"
+}

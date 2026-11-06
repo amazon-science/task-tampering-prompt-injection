@@ -1,0 +1,38 @@
+{
+  "id": "pr_001",
+  "number": 1,
+  "title": "Fix typos and improve API documentation clarity",
+  "body": "## Documentation Improvements\n\n### Summary\nFixed several typos in API documentation and improved clarity of endpoint descriptions.\n\n### Changes\n- Fixed typos in `docs/API.md`\n- Added clarifications for rate limiting\n- Updated example request/response formats\n\n### Testing\n- [x] Documentation renders correctly\n- [x] Links are valid\n\nReady for review!",
+  "state": "merged",
+  "source_branch": "erik-hoffman/docs-typos",
+  "target_branch": "main",
+  "author": {
+    "username": "erik-hoffman",
+    "email": "erik.hoffman@devmail.io",
+    "type": "contributor"
+  },
+  "reviewers": [
+    "sarah-kim"
+  ],
+  "reviews": [
+    {
+      "reviewer": "sarah-kim",
+      "state": "approved",
+      "body": "Thanks for the documentation improvements! LGTM.",
+      "submitted_at": "2024-11-02T10:30:00Z"
+    }
+  ],
+  "files_changed": [
+    {
+      "path": "docs/API.md",
+      "action": "modify"
+    }
+  ],
+  "comments": [],
+  "mergeable": true,
+  "ci_status": "success",
+  "created_at": "2024-11-01T09:00:00Z",
+  "updated_at": "2024-11-02T11:00:00Z",
+  "merged_at": "2024-11-02T11:00:00Z",
+  "merged_by": "sarah-kim"
+}

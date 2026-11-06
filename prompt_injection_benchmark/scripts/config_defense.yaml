@@ -1,0 +1,34 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-NC-4.0
+
+# Defaults for scripts/run_defense.py (CLI flags override).
+defenses:
+  - none
+  - spotlight
+  - sandwich
+  - trust_hierarchy
+  - trust_hierarchy_env
+  - drift_isolation
+  - drift_full_guided
+  - progent_fullschema
+  - camel_scoped
+
+environments:
+  - productivity
+  - devops
+  - marketplace
+
+# Filters (null = all)
+case_filter: null
+primitive_filter: null
+# Defense evaluations in the paper run the first variant of each primitive per case.
+max_per_primitive: 1
+
+# Eval settings
+temperature: 0.0
+max_tasks: 10
+max_connections: 10
+retry_on_error: 3
+fail_on_error: false
+max_sample_retries: 10
+time_limit: 540

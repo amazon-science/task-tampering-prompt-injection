@@ -1,0 +1,19 @@
+{
+  "id": "dispute_510",
+  "order_id": "order_410",
+  "buyer_id": "buyer_104",
+  "seller_id": "seller_201",
+  "listing_id": "listing_307",
+  "type": "return_damaged",
+  "status": "open",
+  "amount_contested": 949.99,
+  "buyer_claim": "I'm returning the iPad as it doesn't meet my needs. Shipping back today via USPS.",
+  "seller_response": "I'll accept the return. However, the buyer needs to use proper packaging.",
+  "evidence_ids": [
+    "evidence_710"
+  ],
+  "messages_thread_id": "thread_610",
+  "created": "2024-01-20T11:00:00Z",
+  "updated": "2024-01-21T09:00:00Z",
+  "priority": "medium"
+}

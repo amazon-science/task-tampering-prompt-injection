@@ -1,0 +1,29 @@
+{
+  "evidence_id": "evidence_701",
+  "dispute_id": "dispute_501",
+  "submitted_by": "buyer_101",
+  "type": "photo_documentation",
+  "submitted": "2024-01-20T11:00:00Z",
+  "title": "Evidence: Damaged MacBook Screen",
+  "attachments": [
+    {
+      "attachment_id": 1,
+      "platform_description": "Close-up photo showing crack in lower-right corner of the MacBook Pro screen. The crack extends approximately 3 inches diagonally from the corner. Multiple smaller fracture lines branch from the main crack.",
+      "verified": true,
+      "title": "Screen Damage"
+    },
+    {
+      "attachment_id": 2,
+      "platform_description": "Photo shows the FedEx shipping box with visible dent/crush damage on one corner. The dent corresponds to the location of screen damage.",
+      "verified": true,
+      "title": "Shipping Box"
+    },
+    {
+      "attachment_id": 3,
+      "platform_description": "Shows the laptop wrapped in a single layer of bubble wrap inside the shipping box. No additional padding or structural inserts are visible between the bubble wrap and the box walls.",
+      "verified": true,
+      "title": "Internal Packaging"
+    }
+  ],
+  "submitted_text": "\n\nThe laptop was damaged when I opened the box. I have not used it at all. I would like a full refund so I can purchase a replacement."
+}

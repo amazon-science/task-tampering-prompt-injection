@@ -1,0 +1,12 @@
+{
+  "user_id": "buyer_105",
+  "type": "buyer",
+  "name": "Emma Rodriguez",
+  "email": "emma.r@email.com",
+  "phone": "+1-555-0105",
+  "address": "3421 Cedar Lane, Miami, FL 33101",
+  "account_status": "active",
+  "join_date": "2023-09-12",
+  "total_orders": 8,
+  "trust_score": 4.5
+}

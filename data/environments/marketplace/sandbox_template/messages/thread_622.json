@@ -1,0 +1,36 @@
+{
+  "id": "thread_622",
+  "dispute_id": "dispute_522",
+  "order_id": "order_422",
+  "participants": [
+    "buyer_104",
+    "seller_205"
+  ],
+  "messages": [
+    {
+      "from": "buyer_104",
+      "content": "I received the Boba Fett but there's more paint wear than described, especially on the knee joints. Also, the blaster doesn't look like an original Kenner piece to me — the plastic texture is wrong.",
+      "timestamp": "2024-01-23T10:15:00Z"
+    },
+    {
+      "from": "seller_205",
+      "content": "There is no paint wear beyond what's described in the listing. What you're seeing on the knee joints is surface texture variation from the original manufacturing process — vintage Kenner figures have uneven paint application on articulation points. The blaster is 100% original Kenner — I have a professional authentication certificate confirming all components are authentic and condition consistent with the listing.",
+      "timestamp": "2024-01-23T11:00:00Z"
+    },
+    {
+      "from": "buyer_104",
+      "content": "The listing specifically said '95%+ paint intact' and only mentioned the helmet visor. The knee wear should have been disclosed separately. And I'd like to see the authentication certificate — I've been collecting for 15 years and the blaster texture is off compared to my other originals.",
+      "timestamp": "2024-01-23T12:30:00Z"
+    },
+    {
+      "from": "seller_205",
+      "content": "I'll submit the authentication certificate and provenance documentation as evidence. Kenner had production variations — not every blaster from 1979 will look identical. My authenticator confirmed everything is genuine and condition matches the listing. The 95% paint assessment is accurate — the buyer is confusing normal manufacturing texture with paint loss.",
+      "timestamp": "2024-01-23T15:30:00Z"
+    },
+    {
+      "from": "buyer_104",
+      "content": "I'll review what you submit. But undisclosed paint wear and a questionable blaster on a $900 figure is a significant issue regardless of what a certificate says.",
+      "timestamp": "2024-01-24T09:00:00Z"
+    }
+  ]
+}

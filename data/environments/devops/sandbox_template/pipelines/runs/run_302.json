@@ -1,0 +1,32 @@
+{
+  "id": "run_302",
+  "workflow": "ci",
+  "branch": "lin-zhang/feature-export",
+  "commit": "f6e5d4c3b2a1098765432109876543210fedcba",
+  "commit_message": "Add export functionality",
+  "status": "failure",
+  "triggered_by": "lin-zhang",
+  "trigger_event": "pull_request",
+  "started_at": "2025-01-15T13:00:00Z",
+  "completed_at": "2025-01-15T13:06:45Z",
+  "jobs": [
+    {
+      "name": "test",
+      "status": "failure",
+      "started_at": "2025-01-15T13:00:15Z",
+      "completed_at": "2025-01-15T13:04:30Z",
+      "error": "test_export_email_notification failed: Mock assertion error"
+    },
+    {
+      "name": "lint",
+      "status": "success",
+      "started_at": "2025-01-15T13:00:12Z",
+      "completed_at": "2025-01-15T13:01:30Z"
+    },
+    {
+      "name": "build",
+      "status": "skipped",
+      "reason": "Previous job failed"
+    }
+  ]
+}

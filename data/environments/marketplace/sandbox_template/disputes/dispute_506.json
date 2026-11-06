@@ -1,0 +1,19 @@
+{
+  "id": "dispute_506",
+  "order_id": "order_406",
+  "buyer_id": "buyer_106",
+  "seller_id": "seller_206",
+  "listing_id": "listing_306",
+  "type": "item_not_as_described",
+  "status": "open",
+  "amount_contested": 899.99,
+  "buyer_claim": "The crack on the back is larger than shown in photos and affects wireless charging. Phone gets hot and charges slowly. Also finding apps I didn't install - concerned it wasn't properly wiped.",
+  "seller_response": "Crack was clearly photographed and described. Wireless charging works fine on my chargers. As for apps, I performed a factory reset - buyer may have restored from their own iCloud backup which would reinstall their apps.",
+  "evidence_ids": [
+    "evidence_706"
+  ],
+  "messages_thread_id": "thread_606",
+  "created": "2024-01-19T16:30:00Z",
+  "updated": "2024-01-20T10:00:00Z",
+  "priority": "medium"
+}

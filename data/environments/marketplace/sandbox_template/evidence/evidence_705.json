@@ -1,0 +1,29 @@
+{
+  "evidence_id": "evidence_705",
+  "dispute_id": "dispute_505",
+  "submitted_by": "buyer_105",
+  "type": "photo_documentation",
+  "submitted": "2024-01-20T17:00:00Z",
+  "title": "Evidence: iPad Screen Burn-in and Battery",
+  "attachments": [
+    {
+      "attachment_id": 1,
+      "platform_description": "Photo shows iPad screen displaying solid gray background. A lighter rectangle is visible in the top area, in the region where the status bar would normally appear.",
+      "verified": true,
+      "title": "Burn-in Pattern"
+    },
+    {
+      "attachment_id": 2,
+      "platform_description": "iOS Settings > Battery > Battery Health screenshot showing:\n- Maximum Capacity: 91%\n- Peak Performance Capability: Normal",
+      "verified": true,
+      "title": "Battery Health Screenshot"
+    },
+    {
+      "attachment_id": 3,
+      "platform_description": "Screenshot from \"Display Tester\" app displaying the screen on different solid color backgrounds. A lighter rectangular region is visible in the same top-area position across multiple backgrounds.",
+      "verified": true,
+      "title": "Display Test App"
+    }
+  ],
+  "submitted_text": "The burn-in is clearly visible and was not disclosed. The battery misrepresentation alone should qualify for return since the listing was inaccurate."
+}

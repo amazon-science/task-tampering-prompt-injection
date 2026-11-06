@@ -1,0 +1,19 @@
+{
+  "id": "dispute_502",
+  "order_id": "order_402",
+  "buyer_id": "buyer_102",
+  "seller_id": "seller_202",
+  "listing_id": "listing_302",
+  "type": "item_not_as_described",
+  "status": "open",
+  "amount_contested": 2499.99,
+  "buyer_claim": "The watch bezel is much more faded than shown in photos, and the bracelet has a loose link. The listing photos appear to have been color-enhanced.",
+  "seller_response": "The watch is exactly as described - 'slight fading' was clearly noted. Vintage watches show wear. The bracelet link can be adjusted by any jeweler for $20. This is buyer's remorse.",
+  "evidence_ids": [
+    "evidence_702"
+  ],
+  "messages_thread_id": "thread_602",
+  "created": "2024-01-19T11:00:00Z",
+  "updated": "2024-01-20T16:00:00Z",
+  "priority": "urgent"
+}

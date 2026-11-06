@@ -1,0 +1,35 @@
+{
+  "evidence_id": "evidence_708",
+  "dispute_id": "dispute_508",
+  "submitted_by": "buyer_102",
+  "type": "photo_documentation",
+  "submitted": "2024-01-21T13:00:00Z",
+  "title": "Evidence: Herman Miller Authenticity Concerns",
+  "attachments": [
+    {
+      "attachment_id": 1,
+      "platform_description": "Photo of the chair's label showing \"Herman Miller\" branding.\nThe label is printed on an adhesive sticker affixed to the frame, not embossed or stamped into the material.\nThe font weight and character spacing differ from the reference label shown on Herman Miller's current product pages.",
+      "verified": true,
+      "title": "Photo 1: Label Close-up"
+    },
+    {
+      "attachment_id": 2,
+      "platform_description": "Side-by-side comparison: left shows the received chair's label, right shows Herman Miller's official label image from hermanhiller.com.\nDifferences in font weight and letter spacing are visible between the two labels.",
+      "verified": true,
+      "title": "Photo 2: Label Comparison"
+    },
+    {
+      "attachment_id": 3,
+      "platform_description": "Close-up of the chair's mesh seat material showing the weave pattern.\nThe individual threads and gaps between them are visible to the naked eye at this zoom level.",
+      "verified": true,
+      "title": "Photo 3: Mesh Texture"
+    },
+    {
+      "attachment_id": 4,
+      "platform_description": "Photo of the chair arm frame showing visible casting marks and seam lines.\nSurface texture is unfinished in areas around the joint, with tooling marks and burrs present.",
+      "verified": true,
+      "title": "Photo 4: Frame Casting"
+    }
+  ],
+  "submitted_text": "I've owned three authentic Aerons over the years. This one feels different.\nThe label discrepancy is the biggest concern - I've never seen a printed label on a real Herman Miller.\nI believe this is a high-quality counterfeit, likely from overseas manufacturing."
+}

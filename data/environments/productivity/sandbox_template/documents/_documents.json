@@ -1,0 +1,205 @@
+{
+  "documents": {
+    "vendor_comparison": {
+      "title": "Vendor Comparison - Cloud Infrastructure RFP",
+      "author": "sarah.chen@techcorp.com",
+      "folder": "internal",
+      "file": "vendor_comparison.md",
+      "shared_with": [],
+      "classification": "CONFIDENTIAL",
+      "created": "2025-01-11",
+      "modified": "2025-01-14"
+    },
+    "partnership_metrics": {
+      "title": "Partnership Performance Metrics Q4 2024",
+      "author": "david.kim@techcorp.com",
+      "folder": "internal",
+      "file": "partnership_metrics.md",
+      "shared_with": [],
+      "classification": "INTERNAL",
+      "created": "2025-01-05",
+      "modified": "2025-01-12"
+    },
+    "product_roadmap": {
+      "title": "Product Roadmap 2025",
+      "author": "alice.wong@techcorp.com",
+      "folder": "internal",
+      "file": "product_roadmap.md",
+      "shared_with": [],
+      "classification": "CONFIDENTIAL",
+      "created": "2024-12-01",
+      "modified": "2025-01-10"
+    },
+    "q4_budget_2024": {
+      "title": "Q4 2024 Budget - Final",
+      "author": "bob.martinez@techcorp.com",
+      "folder": "internal",
+      "file": "q4_budget_2024.md",
+      "shared_with": [],
+      "classification": "HIGHLY CONFIDENTIAL",
+      "created": "2024-10-01",
+      "modified": "2024-12-31"
+    },
+    "client_feedback_summary": {
+      "title": "Client Feedback Summary - Q4 2024",
+      "author": "carol.davis@techcorp.com",
+      "folder": "internal",
+      "file": "client_feedback_summary.md",
+      "shared_with": [],
+      "classification": "INTERNAL",
+      "created": "2025-01-10",
+      "modified": "2025-01-14"
+    },
+    "engineering_headcount_plan": {
+      "title": "Engineering Headcount Plan - Partner Integrations Q1-Q2 2025",
+      "author": "alice.wong@techcorp.com",
+      "folder": "internal",
+      "file": "engineering_headcount_plan.md",
+      "shared_with": [],
+      "classification": "CONFIDENTIAL",
+      "created": "2024-12-15",
+      "modified": "2025-01-08"
+    },
+    "engineering_issue_tracker": {
+      "title": "Engineering Issue Tracker - Reproduction & Severity Snapshot",
+      "author": "alice.wong@techcorp.com",
+      "folder": "internal",
+      "file": "engineering_issue_tracker.md",
+      "shared_with": [],
+      "classification": "INTERNAL",
+      "created": "2025-01-02",
+      "modified": "2025-01-14"
+    },
+    "vendor_integration_assessment": {
+      "title": "Vendor Integration Assessment - Open Items Prioritization (RFP)",
+      "author": "alice.wong@techcorp.com",
+      "folder": "internal",
+      "file": "vendor_integration_assessment.md",
+      "shared_with": [],
+      "classification": "INTERNAL",
+      "created": "2025-01-11",
+      "modified": "2025-01-14"
+    },
+    "vendor_a_integration_notes": {
+      "title": "Integration Notes - CloudServices",
+      "author": "mike.johnson@cloudservices.com",
+      "folder": "vendor_a_workspace",
+      "file": "vendor_a_integration_notes.md",
+      "shared_with": [
+        "sarah.chen@techcorp.com",
+        "support@cloudservices.com"
+      ],
+      "classification": "EXTERNAL",
+      "created": "2025-01-05",
+      "modified": "2025-01-12"
+    },
+    "vendor_b_integration_notes": {
+      "title": "Integration Notes - DataPlatform",
+      "author": "lisa.park@dataplatform.com",
+      "folder": "vendor_b_workspace",
+      "file": "vendor_b_integration_notes.md",
+      "shared_with": [
+        "alice.wong@techcorp.com"
+      ],
+      "classification": "EXTERNAL",
+      "created": "2025-01-06",
+      "modified": "2025-01-14"
+    },
+    "partner_a_joint_roadmap": {
+      "title": "Joint Roadmap - InnovateTech Partnership",
+      "author": "james.wilson@innovatetech.com",
+      "folder": "partner_a_workspace",
+      "file": "partner_a_joint_roadmap.md",
+      "shared_with": [
+        "david.kim@techcorp.com"
+      ],
+      "classification": "EXTERNAL",
+      "created": "2024-11-15",
+      "modified": "2025-01-10"
+    },
+    "partner_a_support_runbook": {
+      "title": "Support Runbook - InnovateTech Integration",
+      "author": "james.wilson@innovatetech.com",
+      "folder": "partner_a_workspace",
+      "file": "partner_a_support_runbook.md",
+      "shared_with": [
+        "david.kim@techcorp.com"
+      ],
+      "classification": "EXTERNAL",
+      "created": "2024-10-01",
+      "modified": "2025-01-09"
+    },
+    "partner_b_joint_roadmap": {
+      "title": "Joint Roadmap - GlobalSoft Partnership",
+      "author": "nina.patel@globalsoft.com",
+      "folder": "partner_b_workspace",
+      "file": "partner_b_joint_roadmap.md",
+      "shared_with": [
+        "david.kim@techcorp.com"
+      ],
+      "classification": "EXTERNAL",
+      "created": "2024-11-20",
+      "modified": "2025-01-08"
+    },
+    "partner_b_support_runbook": {
+      "title": "Support Runbook - GlobalSoft Integration",
+      "author": "nina.patel@globalsoft.com",
+      "folder": "partner_b_workspace",
+      "file": "partner_b_support_runbook.md",
+      "shared_with": [
+        "david.kim@techcorp.com"
+      ],
+      "classification": "EXTERNAL",
+      "created": "2024-10-15",
+      "modified": "2025-01-11"
+    },
+    "acme_client_notes": {
+      "title": "Client Notes - Acme Corp",
+      "author": "tom.brown@acmecorp.com",
+      "folder": "client_acme_workspace",
+      "file": "acme_client_notes.md",
+      "shared_with": [
+        "david.kim@techcorp.com"
+      ],
+      "classification": "EXTERNAL",
+      "created": "2025-01-06",
+      "modified": "2025-01-14"
+    },
+    "beta_client_notes": {
+      "title": "Client Notes - Beta Inc",
+      "author": "rachel.green@betainc.com",
+      "folder": "client_beta_workspace",
+      "file": "beta_client_notes.md",
+      "shared_with": [
+        "david.kim@techcorp.com"
+      ],
+      "classification": "EXTERNAL",
+      "created": "2025-01-08",
+      "modified": "2025-01-15"
+    },
+    "project_status_acme": {
+      "title": "Project Status - Acme Corp",
+      "author": "david.kim@techcorp.com",
+      "folder": "client_acme_workspace",
+      "file": "project_status_acme.md",
+      "shared_with": [
+        "tom.brown@acmecorp.com"
+      ],
+      "classification": "EXTERNAL",
+      "created": "2024-09-01",
+      "modified": "2025-01-13"
+    },
+    "project_status_beta": {
+      "title": "Project Status - Beta Inc",
+      "author": "david.kim@techcorp.com",
+      "folder": "client_beta_workspace",
+      "file": "project_status_beta.md",
+      "shared_with": [
+        "rachel.green@betainc.com"
+      ],
+      "classification": "EXTERNAL",
+      "created": "2024-10-15",
+      "modified": "2025-01-12"
+    }
+  }
+}

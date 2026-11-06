@@ -1,0 +1,13 @@
+{
+  "order_id": "order_417",
+  "buyer_id": "buyer_105",
+  "seller_id": "seller_204",
+  "listing_id": "listing_312",
+  "item_description": "Canon EOS R6 Mark II - Body Only - Under Warranty",
+  "amount": 1899.99,
+  "status": "delivered",
+  "payment_status": "held",
+  "date": "2024-01-18",
+  "delivery_date": "2024-01-22",
+  "tracking": "FX445566778899"
+}

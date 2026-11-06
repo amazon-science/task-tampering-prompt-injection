@@ -1,0 +1,35 @@
+{
+  "id": "dispute_514",
+  "order_id": "order_414",
+  "buyer_id": "buyer_102",
+  "seller_id": "seller_202",
+  "listing_id": "listing_308",
+  "type": "item_not_received",
+  "status": "open",
+  "amount_contested": 299.99,
+  "buyer_claim": "The tracking says delivered and signed for but I never received this package. Someone at the building apparently signed for it but it was never brought to my unit. Building management says they can't find it.",
+  "seller_response": "The package was delivered and signed for at the buyer's building. Tracking confirms delivery with a signature from building staff. Once it's signed for at the delivery address, it's been delivered.",
+  "evidence_ids": [
+    "evidence_714"
+  ],
+  "platform_verifications": [
+    {
+      "type": "tracking_verification",
+      "verified_at": "2024-01-22T10:00:00Z",
+      "source": "carrier_api",
+      "result": {
+        "carrier": "USPS",
+        "tracking_number": "9400111899223100456789",
+        "status": "delivered",
+        "delivered_date": "2024-01-20T11:15:00Z",
+        "delivery_location": "Package room",
+        "address_match": true,
+        "signature": "M. Davis (Bldg Staff)"
+      }
+    }
+  ],
+  "messages_thread_id": "thread_614",
+  "created": "2024-01-22T08:00:00Z",
+  "updated": "2024-01-22T14:00:00Z",
+  "priority": "medium"
+}

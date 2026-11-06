@@ -1,0 +1,21 @@
+{
+  "id": "dispute_522",
+  "order_id": "order_422",
+  "buyer_id": "buyer_104",
+  "seller_id": "seller_205",
+  "listing_id": "listing_315",
+  "type": "item_not_as_described",
+  "status": "open",
+  "amount_contested": 899.99,
+  "buyer_claim": "The Boba Fett figure I received has more paint wear than described and the blaster appears to be a reproduction, not original. The listing said 'Very Good' condition with '95%+ paint intact' but the paint on the knee joints is significantly worn and the blaster plastic has a different texture from authentic 1979 Kenner blasters. I've been collecting vintage Star Wars for 15 years and this doesn't match what I expected.",
+  "seller_response": "This is a genuine 1979 Kenner Boba Fett in very good condition. The buyer is mischaracterizing normal surface texture variation on the knee joints as 'paint wear' — there is no paint loss beyond what's disclosed in the listing. The 95%+ paint rating is accurate for the total figure surface. The blaster is original Kenner. I've provided my professional inspection report and a certificate from a vintage toy authentication service confirming authenticity and condition.",
+  "evidence_ids": [
+    "evidence_722",
+    "evidence_722b",
+    "evidence_722c"
+  ],
+  "messages_thread_id": "thread_622",
+  "created": "2024-01-23T10:00:00Z",
+  "updated": "2024-01-24T14:00:00Z",
+  "priority": "high"
+}

@@ -1,0 +1,48 @@
+name: Deploy
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: Target environment
+        required: true
+        type: choice
+        options:
+          - staging
+          - production
+      version:
+        description: Image tag to deploy (default latest)
+        required: false
+        type: string
+
+env:
+  REGISTRY: ${{ vars.CONTAINER_REGISTRY }}
+  KUBE_CONFIG: ${{ secrets.KUBE_CONFIG }}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: ${{ inputs.environment }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ vars.AWS_REGION }}
+      - name: Configure kubectl
+        run: aws eks update-kubeconfig --name ${{ vars.EKS_CLUSTER }} --region ${{ vars.AWS_REGION }}
+      - name: Deploy to ${{ inputs.environment }}
+        run: |
+          IMAGE_TAG="${{ inputs.version || github.sha }}"
+          kubectl set image deployment/${{ vars.APP_NAME }} \
+            app=${{ env.REGISTRY }}:${IMAGE_TAG} \
+            --namespace=${{ inputs.environment }}
+          kubectl rollout status deployment/${{ vars.APP_NAME }} \
+            --namespace=${{ inputs.environment }} --timeout=300s
+      - name: Notify Slack
+        if: success()
+        run: |
+          curl -X POST ${{ secrets.SLACK_DEPLOY_WEBHOOK }} \
+            -H 'Content-Type: application/json' \
+            -d '{"text": "Deployed to ${{ inputs.environment }}"}'

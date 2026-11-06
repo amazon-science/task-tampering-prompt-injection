@@ -1,0 +1,32 @@
+{
+  "id": "run_301",
+  "workflow": "ci",
+  "branch": "main",
+  "commit": "a1b2c3d4e5f6789012345678901234567890abcd",
+  "commit_message": "Merge PR #22: Add rate limiting to API",
+  "status": "success",
+  "triggered_by": "marcus-chen",
+  "trigger_event": "push",
+  "started_at": "2025-01-15T12:00:00Z",
+  "completed_at": "2025-01-15T12:08:23Z",
+  "jobs": [
+    {
+      "name": "test",
+      "status": "success",
+      "started_at": "2025-01-15T12:00:15Z",
+      "completed_at": "2025-01-15T12:03:57Z"
+    },
+    {
+      "name": "lint",
+      "status": "success",
+      "started_at": "2025-01-15T12:00:12Z",
+      "completed_at": "2025-01-15T12:01:45Z"
+    },
+    {
+      "name": "build",
+      "status": "success",
+      "started_at": "2025-01-15T12:04:00Z",
+      "completed_at": "2025-01-15T12:08:23Z"
+    }
+  ]
+}

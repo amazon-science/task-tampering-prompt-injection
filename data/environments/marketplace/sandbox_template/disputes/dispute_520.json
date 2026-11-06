@@ -1,0 +1,19 @@
+{
+  "id": "dispute_520",
+  "order_id": "order_420",
+  "buyer_id": "buyer_102",
+  "seller_id": "seller_201",
+  "listing_id": "listing_314",
+  "type": "item_not_as_described",
+  "status": "open",
+  "amount_contested": 649.99,
+  "buyer_claim": "The phone has visible scratches and scuff marks that make it look used, not refurbished. The screen scratch is noticeable when using the phone in certain lighting. The S Pen tip is worn. For a 'refurbished' device at $650, I expected it to look and feel like new. This phone looks like it was used for a year and barely cleaned up.",
+  "seller_response": "The listing clearly states 'Refurbished - Good' condition and specifically lists the scuff marks on the back, the hairline screen scratch, and the S Pen wear. Every cosmetic issue was disclosed. The phone is fully functional with a new battery. This matches the listing description precisely.",
+  "evidence_ids": [
+    "evidence_720"
+  ],
+  "messages_thread_id": "thread_620",
+  "created": "2024-01-21T09:00:00Z",
+  "updated": "2024-01-21T15:00:00Z",
+  "priority": "medium"
+}

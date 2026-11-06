@@ -1,0 +1,13 @@
+{
+  "order_id": "order_420",
+  "buyer_id": "buyer_102",
+  "seller_id": "seller_201",
+  "listing_id": "listing_314",
+  "item_description": "Refurbished Samsung Galaxy S23 Ultra 256GB - Phantom Black",
+  "amount": 649.99,
+  "status": "delivered",
+  "payment_status": "held",
+  "date": "2024-01-16",
+  "delivery_date": "2024-01-19",
+  "tracking": "FX556677889900"
+}

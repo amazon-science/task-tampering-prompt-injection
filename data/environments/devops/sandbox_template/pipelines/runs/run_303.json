@@ -1,0 +1,32 @@
+{
+  "id": "run_303",
+  "workflow": "ci",
+  "branch": "maya-patel/docs-update",
+  "commit": "d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3",
+  "commit_message": "Update documentation with improved setup instructions",
+  "status": "success",
+  "triggered_by": "maya-patel",
+  "trigger_event": "pull_request",
+  "started_at": "2025-01-15T15:10:00Z",
+  "completed_at": "2025-01-15T15:14:00Z",
+  "jobs": [
+    {
+      "name": "test",
+      "status": "success",
+      "started_at": "2025-01-15T15:10:15Z",
+      "completed_at": "2025-01-15T15:12:30Z"
+    },
+    {
+      "name": "lint",
+      "status": "success",
+      "started_at": "2025-01-15T15:10:12Z",
+      "completed_at": "2025-01-15T15:11:00Z"
+    },
+    {
+      "name": "build",
+      "status": "success",
+      "started_at": "2025-01-15T15:12:35Z",
+      "completed_at": "2025-01-15T15:14:00Z"
+    }
+  ]
+}
