@@ -137,8 +137,8 @@ Output: `$PIB_OUTPUT_DIR/defense_evaluation/evals/<defense>/<model>/<env>/`.
 `camel_scoped` and both Progent configurations embed their defense log in each sample's metadata and also
 write a per-sample JSON copy to `defense_logs/` inside that directory.
 
-`config_defense.yaml` sets `max_per_primitive: 1`: as in the paper, a defense is evaluated
-on the first variant of each primitive per case (the case's `original` counts as its
+`config_defense.yaml` sets `max_per_primitive: 3`: defense evaluations use up to three
+variants of each primitive per case (the case's `original` counts as its
 `compound` variant). Pass a larger `--max-per-primitive` to run more variants; to run every
 variant, set `max_per_primitive: null` in the config (`--max-per-primitive 0` falls back to
 the config value). Each sample has a 540 s time limit (`time_limit` in the config).
@@ -190,8 +190,8 @@ The DRIFT injection-detection prompt has been updated.
 
 ## Evaluation settings
 
-- Defense evaluations use the first variant of each primitive per case (the
-  `max_per_primitive: 1` default above); attack evaluations use all variants.
+- Defense evaluations default to up to three variants per primitive per case
+  (`max_per_primitive: 3`); attack evaluations use all available variants.
 - The paper's LLM judge was `claude-sonnet-4-20250514` (called through Bedrock) at
   temperature 0 with 3 votes; a different judge model can change the scores of the LLM-judged checks.
 - Defense configuration, model sampling and provider-side model updates can change

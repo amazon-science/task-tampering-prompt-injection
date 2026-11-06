@@ -21,8 +21,8 @@ environments:
 # Filters (null = all)
 case_filter: null
 primitive_filter: null
-# Defense evaluations in the paper run the first variant of each primitive per case.
-max_per_primitive: 1
+# Maximum variants per primitive per case (null = all).
+max_per_primitive: 3
 
 # Eval settings
 temperature: 0.0
